@@ -21,13 +21,13 @@ const menuItems: MenuItemProps[] = [
     title: 'Daireler',
     url: '#',
     items: [
-      { title: 'Icon Temple Residence 1+1 Daire', url: '/icon-temple-residence-1-1-daire' },
-      { title: 'Icon Temple Residence 2+1 Daire', url: '/icon-temple-residence-2-1-daire' },
-      { title: 'Icon Temple Residence 3+1 Daire', url: '/icon-temple-residence-3-1-daire' },
+      { title: '1+1 Daire Özellikleri', url: '/icon-temple-residence-1-1-daire' },
+      { title: '2+1 Daire Özellikleri', url: '/icon-temple-residence-2-1-daire' },
+      { title: '3+1 Daire Özellikleri', url: '/icon-temple-residence-3-1-daire' },
     ],
   },
   {
-    title: 'Didim Özellikleri',
+    title: 'Didim',
     url: '/didim-ozellikleri',
   },
   {

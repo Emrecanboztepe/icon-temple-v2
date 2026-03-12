@@ -1,4 +1,3 @@
-import CursorPointer from '@/components/animation/CursorPointer'
 import SmoothScrollProvider from '@/components/shared/SmoothScroll'
 import { satoshi } from '@/utils/fonts'
 import type { Metadata } from 'next'
@@ -22,7 +21,6 @@ export default function RootLayout({
       <body className={`${satoshi.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>
           <SmoothScrollProvider>
-            <CursorPointer />
             {children}
           </SmoothScrollProvider>
         </Suspense>

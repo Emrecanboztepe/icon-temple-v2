@@ -12,7 +12,7 @@ const ContactPage = () => {
     <LayoutOne>
       <ContactFormIconTemple />
       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
-        Yeni yaşamınızı
+        Yeni
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -21,7 +21,6 @@ const ContactPage = () => {
           ]}
         />
         birlikte planlayalım.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Bir kahve eşliğinde?</i>
       </CTA>
     </LayoutOne>
   )

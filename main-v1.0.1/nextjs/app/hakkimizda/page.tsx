@@ -8,7 +8,7 @@ import SkewMarquee from '@/components/shared/SkewMarquee'
 import Video from '@/components/shared/Video'
 
 export const metadata = {
-  title: 'About-02',
+  title: 'İcon Temple Hakkımızda',
 }
 
 const AboutPage = () => {

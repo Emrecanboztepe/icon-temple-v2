@@ -10,7 +10,7 @@ import LayoutTwo from '@/components/shared/LayoutTwo'
 import VideoV2 from '@/components/shared/VideoV2'
 
 export const metadata = {
-  title: 'Video Photography Agency - Rivor',
+  title: 'İcon Temple Bina Özellikleri ',
 }
 
 const homepage11 = () => {
@@ -24,7 +24,7 @@ const homepage11 = () => {
       <WhyChooseUsV3 />
       <OurWork />
       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
-        Yeni yaşamınızı
+        Yeni
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -32,8 +32,7 @@ const homepage11 = () => {
             { id: '3', img: '/images/agent/03.jpg' },
           ]}
         />
-       birlikte planlayalım.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Bir kahve eşliğinde?</i>
+        birlikte planlayalım.
       </CTA>
     </LayoutTwo>
   )

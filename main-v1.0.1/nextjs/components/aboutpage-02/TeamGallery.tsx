@@ -1,4 +1,3 @@
-import teamMemberV2 from '@/data/teamMemberV2.json'
 import Image from 'next/image'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
@@ -11,6 +10,33 @@ export interface ITeamMember {
   title: string
   position: string
 }
+
+const teamMembers: ITeamMember[] = [
+  {
+    id: '1',
+    image: '/images/home-ai/team/ai-team-1.png',
+    title: '1+1 Daireler',
+    position: 'Icon Temple'
+  },
+  {
+    id: '2',
+    image: '/images/home-ai/team/ai-team-2.png',
+    title: '2+1 Daireler',
+    position: 'Icon Temple'
+  },
+  {
+    id: '3',
+    image: '/images/home-ai/team/ai-team-3.png',
+    title: '3+1 Daireler',
+    position: 'Icon Temple'
+  },
+  {
+    id: '4',
+    image: '/images/home-ai/team/ai-team-4.png',
+    title: 'Didim',
+    position: 'Icon Temple'
+  }
+]
 
 const TeamGallery = () => {
   return (
@@ -25,30 +51,30 @@ const TeamGallery = () => {
         </div>
 
         <RevealWrapper className="max-lg:hidden lg:block">
-          <Teams team={teamMemberV2} />
+          <Teams team={teamMembers} />
         </RevealWrapper>
 
         <div className="max-lg:block lg:hidden">
           <div className="relative grid grid-cols-1 items-center justify-center gap-10 sm:grid-cols-2">
-            {teamMemberV2?.map((teamM) => (
-              <RevealWrapper key={teamM.id} className="relative">
-                <Image
-                  src={teamM.image}
-                  width={344}
-                  height={388}
-                  alt="Team member 1"
-                  className="h-full w-full object-cover shadow-lg"
-                />
-                <div className="absolute bottom-0 left-0 right-0 m-5 bg-primary px-4 py-4">
-                  <Link href={`/team/${teamM.id}`}>
+            {teamMembers.map((member) => (
+              <RevealWrapper key={member.id} className="relative group">
+                <Link href={member.id === '4' ? '/didim-ozellikleri' : `/icon-temple-residence-${member.id}-1-daire`}>
+                  <Image
+                    src={member.image}
+                    width={344}
+                    height={388}
+                    alt={member.title}
+                    className="h-full w-full object-cover shadow-lg transition-all duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 m-5 bg-primary px-4 py-4">
                     <div className="blog-title mb-1">
-                      <h3 className="dark:text-secondary lg:text-4xl lg:leading-[1.2] lg:tracking-[-1.08px]">
-                        {teamM.title}
+                      <h3 className="text-xl dark:text-secondary lg:text-4xl lg:leading-[1.2] lg:tracking-[-1.08px]">
+                        {member.title}
                       </h3>
                     </div>
-                  </Link>
-                  <p className="text-lg font-light leading-5 text-black/70 dark:text-secondary">{teamM.position}</p>
-                </div>
+                    <p className="text-lg font-light leading-5 text-black/70 dark:text-secondary">{member.position}</p>
+                  </div>
+                </Link>
               </RevealWrapper>
             ))}
           </div>

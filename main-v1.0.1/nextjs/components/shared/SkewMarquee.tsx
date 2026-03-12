@@ -76,7 +76,7 @@ const SkewMarquee = () => {
   )
 
   return (
-    <section className="relative w-full overflow-visible pb-0 pt-4 lg:pb-4">
+    <section className="relative w-full overflow-x-hidden pb-0 pt-4 lg:pb-4 lg:overflow-visible">
       <div
         ref={containerRef}
         className="max-w-[2000px] mx-auto"
@@ -85,10 +85,16 @@ const SkewMarquee = () => {
             'translate3d(-200px, 0px, 0px) scale3d(1, 1, 1) rotateX(30deg) rotateY(17deg) rotateZ(342deg) skew(7deg, 359deg)',
           transformStyle: 'preserve-3d',
         }}>
-        <div ref={marqueeRef} className="flex flex-nowrap gap-5">
+        <div ref={marqueeRef} className="flex flex-nowrap gap-3 lg:gap-5">
           {MARQUEE_IMAGES.map((img) => (
             <figure key={img.id} className="marquee-part z-50 flex flex-shrink-0 items-center justify-center">
-              <Image width={300} height={350} src={img.src} alt={`Marquee ${img.id}`} />
+              <Image 
+                width={300} 
+                height={350} 
+                src={img.src} 
+                alt={`Marquee ${img.id}`}
+                className="w-[150px] h-[175px] lg:w-[300px] lg:h-[350px] object-cover"
+              />
             </figure>
           ))}
         </div>

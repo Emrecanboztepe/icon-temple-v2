@@ -52,19 +52,17 @@ const OurWorkShowcase = () => {
           {ourWork.slice(0, 3).map((item, index) => (
             <div key={item.slug} className="group">
               <Link href={daireler[index].slug}>
-                <figure className="mb-6 overflow-hidden">
+                <figure className="relative mb-6 overflow-hidden rounded-2xl border-4 border-primary/20 shadow-lg transition-all duration-500 group-hover:border-primary/40 group-hover:shadow-2xl">
                   <img
                     src={item?.image}
                     className="h-auto w-full transition-all duration-500 group-hover:scale-110"
                     alt={daireler[index].title}
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                 </figure>
               </Link>
-              <p className="mb-2 text-xs uppercase tracking-wider text-gray-500">
-                {item?.date}, {item?.year}
-              </p>
               <Link href={daireler[index].slug}>
-                <h3 className="text-2xl font-normal md:text-3xl lg:text-4xl">
+                <h3 className="text-2xl font-normal transition-colors duration-300 group-hover:text-primary md:text-3xl lg:text-4xl">
                   {daireler[index].title}
                 </h3>
               </Link>

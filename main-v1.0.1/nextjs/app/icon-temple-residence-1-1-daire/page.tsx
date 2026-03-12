@@ -11,7 +11,7 @@ import LayoutOne from '@/components/shared/LayoutOne'
 import VideoV2 from '@/components/shared/VideoV2'
 
 export const metadata = {
-  title: "Icon Temple Residence 1+1 Daire - Didim'in Yeni İkonu",
+  title: '1+1 Daire Özellikleri - Icon Temple',
 }
 
 const IconTempleResidence11Daire = () => {
@@ -33,7 +33,7 @@ const IconTempleResidence11Daire = () => {
       <Clients />
       <Didim />
        <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
-        Yeni yaşamınızı
+        Yeni
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -41,8 +41,7 @@ const IconTempleResidence11Daire = () => {
             { id: '3', img: '/images/agent/03.jpg' },
           ]}
         />
-       birlikte planlayalım.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Bir kahve eşliğinde?</i>
+        birlikte planlayalım.
       </CTA>
     </LayoutOne>
   )

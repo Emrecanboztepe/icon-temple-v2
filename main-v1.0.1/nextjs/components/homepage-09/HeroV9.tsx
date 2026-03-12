@@ -13,7 +13,7 @@ const HeroV9 = () => {
         <div className="flex flex-col gap-8 max-lg:justify-center lg:flex-row lg:items-start">
           <div className="w-full flex-1 max-lg:self-center">
             <TextAppearAnimation>
-              <h1 className="text-appear mb-10 lg:mb-16 xl:mb-24 xl:text-[85px] xl:leading-[1.22]">
+              <h1 className="text-appear mb-10 text-center lg:mb-16 lg:text-left xl:mb-24 xl:text-[85px] xl:leading-[1.22]">
                 Ege'nin Kalbi<i className="block font-instrument italic">Altınkum'un</i> İmzası: Didim'de Yaşam
               </h1>
             </TextAppearAnimation>

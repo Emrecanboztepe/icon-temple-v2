@@ -30,7 +30,7 @@ const Home = () => {
       <OurWorkShowcase />
       <OurWork />
       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
-        Yeni yaşamınızı
+        Yeni
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -38,8 +38,7 @@ const Home = () => {
             { id: '3', img: '/images/agent/03.jpg' },
           ]}
         />
-       birlikte planlayalım.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Bir kahve eşliğinde?</i>
+        birlikte planlayalım.
       </CTA>
     </LayoutOne>
   )

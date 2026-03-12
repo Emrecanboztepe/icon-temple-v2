@@ -7,7 +7,7 @@ import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 
 export const metadata = {
-  title: 'Personal Branding - Rivor',
+  title: 'Didim - Icon Temple',
 }
 const page = () => {
   return (
@@ -17,7 +17,7 @@ const page = () => {
       <PersonalProjects />
       <OurWorkShowcase />
       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
-        Yeni yaşamınızı
+        Yeni
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -26,7 +26,6 @@ const page = () => {
           ]}
         />
         birlikte planlayalım.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Bir kahve eşliğinde?</i>
       </CTA>
     </LayoutOne>
   )

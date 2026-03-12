@@ -1,7 +1,5 @@
-import topArrow from '@/public/images/icons/arrow-Icon.svg'
 import getMarkDownData from '@/utils/GetMarkDownData'
 import Image from 'next/image'
-import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
 import TextAppearAnimation from '../animation/TextAppearAnimation'
 
@@ -32,16 +30,7 @@ const PersonalProjects = () => {
               </p>
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">
-              <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/design-agency" className="rv-button rv-button-white block md:inline-block">
-                  <div className="rv-button-top">
-                    <span>See More projects</span>
-                  </div>
-                  <div className="rv-button-bottom">
-                    <span>See More projects</span>
-                  </div>
-                </Link>
-              </li>
+              <li className="mx-auto block w-full text-center md:inline-block md:w-auto"></li>
             </RevealWrapper>
           </div>
         </div>
@@ -54,17 +43,16 @@ const PersonalProjects = () => {
                   height={445}
                   src={project.thumbnail}
                   alt={project.alt}
-                  className="transition-all duration-500 group-hover:rotate-3 group-hover:scale-125"
+                  className="transition-all duration-500 group-hover:scale-110"
                 />
               </div>
-
-              <div className="absolute bottom-4 left-4 right-4 bg-backgroundBody p-2 sm:p-3 md:bottom-10 md:left-10 md:right-auto md:max-w-[535px] md:p-[30px]">
+              <div className="absolute bottom-4 left-4 right-4 bg-black/80 p-2 sm:p-3 md:bottom-10 md:left-10 md:right-auto md:max-w-[535px] md:p-[30px]">
                 <div className="project-title mb-1 md:mb-5">
-                  <h3 className="text-lg font-normal text-secondary dark:text-secondary md:text-[24px] lg:text-5xl lg:leading-[1.2]">
+                  <h3 className="text-lg font-normal md:text-[24px] lg:text-5xl lg:leading-[1.2]" style={{ color: '#ffffff' }}>
                     {project.title}
                   </h3>
                 </div>
-                <p className="line-clamp-1 text-xs text-secondary dark:text-secondary md:line-clamp-none md:text-base">
+                <p className="line-clamp-1 text-xs md:line-clamp-none md:text-base" style={{ color: '#ffffff' }}>
                   {project.description}
                 </p>
               </div>

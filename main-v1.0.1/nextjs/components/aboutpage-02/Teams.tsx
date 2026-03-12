@@ -29,12 +29,12 @@ const Teams: FC<TeamsProps> = ({ team }) => {
           />
           <div
             className={`underline-hover-effect absolute bottom-0 left-0 right-0 m-5 bg-primary px-5 py-7 transition-all duration-500 ${index === activeIndex ? 'translate-y-0 opacity-100' : '-translate-y-40 opacity-0'}`}>
-            <Link href={`/team/${member.id}`}>
+            <Link href={member.id === '4' ? '/didim-ozellikleri' : `/icon-temple-residence-${member.id}-1-daire`}>
               <div className="project-title mb-1">
-                <h3 className="text-4xl leading-tight tracking-tight dark:text-secondary">{member.title}</h3>
+                <h3 className="text-4xl leading-tight tracking-tight" style={{ color: '#ffffff' }}>{member.title}</h3>
               </div>
             </Link>
-            <p className="text-lg font-light leading-5 text-black/70 dark:text-secondary">{member.position}</p>
+            <p className="text-lg font-light leading-5" style={{ color: '#ffffff' }}>{member.position}</p>
           </div>
         </div>
       ))}

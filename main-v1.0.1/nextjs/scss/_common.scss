@@ -690,6 +690,10 @@ html.lenis {
 // CTA Inline Slider
 .cta-slider-container {
   @apply mx-auto inline-block h-24 w-60 overflow-hidden rounded-[70px] md:h-[100px] md:w-[250px];
+  
+  @media (min-width: 1024px) {
+    transform: translate(-200px, 0px) rotate(-10.98052deg) rotateY(7.1149deg) rotateX(25.8362deg) skew(8.09811deg, 0deg) scale(1.01544, 1.00241);
+  }
 
   .cta-inline-slider {
     @apply absolute h-full w-full transition-transform duration-[0.5s] ease-in-out;

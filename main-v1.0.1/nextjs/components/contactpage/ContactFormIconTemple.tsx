@@ -8,7 +8,6 @@ const ContactFormIconTemple = () => {
     subject: '',
     email: '',
     apartmentType: '1+1',
-    budget: '',
     message: '',
   })
 
@@ -142,76 +141,57 @@ const ContactFormIconTemple = () => {
               </div>
             </div>
 
-            {/* Daire Tipi ve Bütçe - Yan Yana */}
-            <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2">
-              <div className="relative">
-                <label
-                  htmlFor="apartmentType"
-                  className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-                  İlgilendiğiniz Daire Tipi
-                </label>
-                <select
-                  id="apartmentType"
-                  name="apartmentType"
-                  value={formData.apartmentType}
-                  onChange={handleChange}
-                  className="mt-3 w-full appearance-none text-ellipsis border bg-backgroundBody px-5 py-4 indent-px text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
-                  required>
-                  <option value="1+1">1+1 Daireler</option>
-                  <option value="2+1">2+1 Daireler</option>
-                  <option value="3+1">3+1 Daireler</option>
-                  <option value="Bilgi">Genel Bilgi</option>
-                </select>
-                <span className="absolute right-5 top-1/2 translate-y-1/3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="inline dark:hidden">
-                    <path
-                      d="M6 9L12 15L18 9"
-                      stroke="black"
-                      strokeOpacity="0.7"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    className="hidden dark:inline"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none">
-                    <path
-                      d="M6 9L12 15L18 9"
-                      stroke="white"
-                      strokeOpacity="0.7"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </div>
-
-              <div>
-                <label
-                  htmlFor="budget"
-                  className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-                  Yatırım Aralığınız
-                </label>
-                <input
-                  type="text"
-                  id="budget"
-                  name="budget"
-                  value={formData.budget}
-                  onChange={handleChange}
-                  placeholder="Örn: 2M - 5M TL"
-                  className="mt-3 w-full border bg-backgroundBody py-4 pl-5 text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
-                />
-              </div>
+            {/* Daire Tipi - Full Width */}
+            <div className="relative">
+              <label
+                htmlFor="apartmentType"
+                className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
+                İlgilendiğiniz Daire Tipi
+              </label>
+              <select
+                id="apartmentType"
+                name="apartmentType"
+                value={formData.apartmentType}
+                onChange={handleChange}
+                className="mt-3 w-full appearance-none text-ellipsis border bg-backgroundBody px-5 py-4 indent-px text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
+                required>
+                <option value="1+1">1+1 Daireler</option>
+                <option value="2+1">2+1 Daireler</option>
+                <option value="3+1">3+1 Daireler</option>
+                <option value="Bilgi">Genel Bilgi</option>
+              </select>
+              <span className="absolute right-5 top-1/2 translate-y-1/3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="inline dark:hidden">
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="black"
+                    strokeOpacity="0.7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  className="hidden dark:inline"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none">
+                  <path
+                    d="M6 9L12 15L18 9"
+                    stroke="white"
+                    strokeOpacity="0.7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
             </div>
 
             {/* Mesaj - Full Width */}

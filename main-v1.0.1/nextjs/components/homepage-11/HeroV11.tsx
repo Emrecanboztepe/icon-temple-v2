@@ -13,13 +13,13 @@ const HeroV11 = () => {
           <span className="rv-badge-text">ICON TEMPLE</span>
         </RevealWrapper>
         <TextAppearAnimation>
-          <h1 className="text-appear mb-3">
+          <h1 className="text-appear mb-3 text-center lg:text-left">
             Her detayda
             <span className="font-instrument italic"> ayrıcalıklı bir yaşam</span>
           </h1>
         </TextAppearAnimation>
         <TextAppearAnimation>
-          <p className="text-appear">
+          <p className="text-appear text-center lg:text-left">
             Estetiğin fonksiyonellikle buluştuğu Icon Temple projesinde, Didim'in en özel lokasyonunu premium malzeme seçimi ve üst segment işçilikle bir araya getirdik.
           </p>
         </TextAppearAnimation>

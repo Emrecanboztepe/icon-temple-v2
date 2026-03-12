@@ -12,7 +12,7 @@ const HeroV7 = () => {
 
       <RevealWrapper className="mx-auto max-w-screen-xl px-5">
         <div>
-          <h1 className="font-normal max-lg:text-center xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">
+          <h1 className="text-center font-normal lg:text-left xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">
            Ege’nin Kalbinde
             <CtaImageSlider
               slides={[
@@ -27,12 +27,12 @@ const HeroV7 = () => {
                 { id: '9', img: '/images/agent/09.jpg' },
               ]}
             />
-            Denize Bir Adım Mesafede Seçkin Bir Yaşam
+            İçinde  Seçkin Bir Yaşam
           </h1>
         </div>
 
-        <p className="mt-10 max-w-[770px] font-normal max-lg:mx-auto">
-          Didim Altınkum’da, Temple Grup güvencesiyle yükselen Icon Temple; akıllı ev teknolojileri ve kesintisiz deniz manzarasıyla rezidans konforunu yeniden tanımlıyor.
+        <p className="mt-10 max-w-[770px] text-center font-normal lg:mx-0 lg:text-left max-lg:mx-auto">
+          Didim Altınkum’da, Temple Grup güvencesiyle yükselen Icon Temple; akıllı ev teknolojileri ve kesintisiz deniz manzarasıyla rezidans konforu.
         </p>
       </RevealWrapper>
 
