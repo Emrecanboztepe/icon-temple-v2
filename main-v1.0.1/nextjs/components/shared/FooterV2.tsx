@@ -5,12 +5,16 @@ import Link from 'next/link'
 const FooterV2 = () => {
   return (
     <footer className="w-full overflow-hidden">
-      <div className="bg-backgroundBody dark:bg-secondary">
-        <h5 className="footer-text-v2 w-full text-nowrap text-center font-satoshi text-[120px] font-medium uppercase leading-[100%] sm:text-[200px] md:text-[258px] lg:text-[300px] xl:text-[350px] 2xl:text-[386px]">
-          ICON
-        </h5>
+      <div className="bg-backgroundBody dark:bg-secondary flex items-end justify-center overflow-hidden" style={{ height: '460px' }}>
+        <Image
+          src="/images/footer.png"
+          alt="Icon Temple Building"
+          width={1400}
+          height={600}
+          className="w-[83%] h-full object-contain object-bottom pointer-events-none select-none"
+        />
       </div>
-      <div className="-mt-10 bg-backgroundBody py-4 dark:bg-dark sm:-mt-[70px] md:-mt-24 xl:-mt-28">
+      <div className="bg-backgroundBody py-10 dark:bg-dark">
         <div className="container">
           {/* Footer Content Grid */}
           <div className="relative z-10 flex flex-col flex-wrap justify-center gap-x-8 gap-y-10 pt-10 sm:flex-row sm:justify-between sm:gap-y-16 md:pt-20">
@@ -59,8 +63,8 @@ const FooterV2 = () => {
                 </div>
                 <div>
                   <h6 className="mb-1 text-base font-medium">Adres</h6>
-                  <Link 
-                    href="https://www.google.com/maps/search/?api=1&query=Yalı+Caddesi+Altınkum+Didim+Türkiye" 
+                  <Link
+                    href="https://www.google.com/maps/search/?api=1&query=Yalı+Caddesi+Altınkum+Didim+Türkiye"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-base leading-6 opacity-70">

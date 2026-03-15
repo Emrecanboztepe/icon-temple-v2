@@ -9,26 +9,26 @@ import { useRef } from 'react'
 gsap.registerPlugin(ScrollTrigger)
 
 const MARQUEE_IMAGES = [
-  { id: 1, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 2, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 3, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 4, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 5, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 6, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 7, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 8, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 9, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 10, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 11, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 12, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 13, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 14, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 15, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 16, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 17, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 18, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 19, src: '/images/marquee-img/hero-marquee-04.png' },
-  { id: 20, src: '/images/marquee-img/hero-marquee-04.png' },
+  { id: 1, src: '/images/marquee-img/1.webp' },
+  { id: 2, src: '/images/marquee-img/2.webp' },
+  { id: 3, src: '/images/marquee-img/3.webp' },
+  { id: 4, src: '/images/marquee-img/4.webp' },
+  { id: 5, src: '/images/marquee-img/5.webp' },
+  { id: 6, src: '/images/marquee-img/6.webp' },
+  { id: 7, src: '/images/marquee-img/7.webp' },
+  { id: 8, src: '/images/marquee-img/8.webp' },
+  { id: 9, src: '/images/marquee-img/9.webp' },
+  { id: 10, src: '/images/marquee-img/10.webp' },
+  { id: 11, src: '/images/marquee-img/1.webp' },
+  { id: 12, src: '/images/marquee-img/2.webp' },
+  { id: 13, src: '/images/marquee-img/3.webp' },
+  { id: 14, src: '/images/marquee-img/4.webp' },
+  { id: 15, src: '/images/marquee-img/5.webp' },
+  { id: 16, src: '/images/marquee-img/6.webp' },
+  { id: 17, src: '/images/marquee-img/7.webp' },
+  { id: 18, src: '/images/marquee-img/8.webp' },
+  { id: 19, src: '/images/marquee-img/9.webp' },
+  { id: 20, src: '/images/marquee-img/10.webp' },
 ]
 
 const SkewMarquee = () => {
@@ -76,30 +76,32 @@ const SkewMarquee = () => {
   )
 
   return (
-    <section className="relative w-full overflow-x-hidden pb-0 pt-4 lg:pb-4 lg:overflow-visible">
-      <div
-        ref={containerRef}
-        className="max-w-[2000px] mx-auto"
-        style={{
-          transform:
-            'translate3d(-200px, 0px, 0px) scale3d(1, 1, 1) rotateX(30deg) rotateY(17deg) rotateZ(342deg) skew(7deg, 359deg)',
-          transformStyle: 'preserve-3d',
-        }}>
-        <div ref={marqueeRef} className="flex flex-nowrap gap-3 lg:gap-5">
-          {MARQUEE_IMAGES.map((img) => (
-            <figure key={img.id} className="marquee-part z-50 flex flex-shrink-0 items-center justify-center">
-              <Image 
-                width={300} 
-                height={350} 
-                src={img.src} 
-                alt={`Marquee ${img.id}`}
-                className="w-[150px] h-[175px] lg:w-[300px] lg:h-[350px] object-cover"
-              />
-            </figure>
-          ))}
+    <div style={{ overflowX: 'clip', overflowY: 'visible' }} className="w-full">
+      <section className="relative w-full overflow-visible pb-16 pt-4 lg:pb-20">
+        <div
+          ref={containerRef}
+          className="max-w-[2000px] mx-auto"
+          style={{
+            transform:
+              'translate3d(-200px, 80px, 0px) scale3d(1, 1, 1) rotateX(12deg) rotateY(6deg) rotateZ(352deg) skew(3deg, 359deg)',
+            transformStyle: 'preserve-3d',
+          }}>
+          <div ref={marqueeRef} className="flex flex-nowrap gap-3 lg:gap-5">
+            {MARQUEE_IMAGES.map((img) => (
+              <figure key={img.id} className="marquee-part z-50 flex flex-shrink-0 items-center justify-center">
+                <Image
+                  width={300}
+                  height={350}
+                  src={img.src}
+                  alt={`Marquee ${img.id}`}
+                  className="w-[150px] h-[175px] lg:w-[300px] lg:h-[350px] object-cover"
+                />
+              </figure>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 

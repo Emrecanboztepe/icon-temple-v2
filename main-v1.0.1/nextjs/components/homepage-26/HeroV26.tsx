@@ -15,12 +15,15 @@ const HeroV26 = () => {
             Ege'nin Kalbinde
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/01.jpg' },
-                { id: '2', img: '/images/agent/02.jpg' },
-                { id: '3', img: '/images/agent/03.jpg' },
+                { id: '1', img: '/images/agent/huzurun.jpg' },
+                { id: '2', img: '/images/agent/nesenin.jpg' },
+                { id: '3', img: '/images/agent/umut.jpg' },
+                { id: '4', img: '/images/agent/sevgi.jpg' },
+                { id: '5', img: '/images/agent/ses.jpg' },
+                { id: '6', img: '/images/agent/hayal.jpg' },
               ]}
             />
-             İçinde  Seçkin Bir Yaşam
+            İçinde  Seçkin Bir Yaşam
           </h1>
         </div>
 

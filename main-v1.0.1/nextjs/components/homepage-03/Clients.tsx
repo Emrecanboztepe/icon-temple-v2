@@ -25,24 +25,18 @@ const company = [
     id: 5,
     logo: '/images/icons/company/client-top-5.png',
   },
+
   {
     id: 6,
-    logo: '/images/icons/company/client-top-6.png',
-  },
-  {
-    id: 7,
     logo: '/images/icons/company/client-top-7.png',
   },
+
   {
-    id: 8,
-    logo: '/images/icons/company/client-top-8.png',
-  },
-  {
-    id: 9,
+    id: 7,
     logo: '/images/icons/company/client-top-9.png',
   },
   {
-    id: 10,
+    id: 8,
     logo: '/images/icons/company/client-top-10.png',
   },
 ]
@@ -79,12 +73,9 @@ const reverseCompany = [
     id: 8,
     logo: '/images/icons/company/client-bottom-8.png',
   },
+
   {
     id: 9,
-    logo: '/images/icons/company/client-bottom-9.png',
-  },
-  {
-    id: 10,
     logo: '/images/icons/company/client-bottom-10.png',
   },
 ]
@@ -107,10 +98,10 @@ const Clients = () => {
           <div className="flex items-center gap-x-16 py-8 md:gap-x-20">
             {company.map((client) => (
               <div key={client.id}>
-                <Image 
-                  src={client.logo} 
-                  alt="client Logo" 
-                  width={180} 
+                <Image
+                  src={client.logo}
+                  alt="client Logo"
+                  width={180}
                   height={80}
                   className="h-[80px] w-auto object-contain md:h-[100px]"
                 />
@@ -125,10 +116,10 @@ const Clients = () => {
           <div className="flex items-center gap-x-16 py-8 md:gap-x-20">
             {reverseCompany.map((client) => (
               <div key={client.id}>
-                <Image 
-                  src={client.logo} 
-                  alt="client Logo" 
-                  width={180} 
+                <Image
+                  src={client.logo}
+                  alt="client Logo"
+                  width={180}
                   height={80}
                   className="h-[80px] w-auto object-contain md:h-[100px]"
                 />

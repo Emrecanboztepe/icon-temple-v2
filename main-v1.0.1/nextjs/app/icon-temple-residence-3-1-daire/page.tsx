@@ -32,13 +32,13 @@ const IconTempleResidence31Daire = () => {
       <OurWork />
       <Clients />
       <Didim />
-       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
+      <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
         Yeni
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/01.jpg' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/03.jpg' },
+            { id: '1', img: '/images/agent/yasami.jpg' },
+            { id: '2', img: '/images/agent/anı.jpg' },
+            { id: '3', img: '/images/agent/konfor.jpg' },
           ]}
         />
         birlikte planlayalım.

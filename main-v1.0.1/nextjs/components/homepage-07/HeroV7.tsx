@@ -13,18 +13,15 @@ const HeroV7 = () => {
       <RevealWrapper className="mx-auto max-w-screen-xl px-5">
         <div>
           <h1 className="text-center font-normal lg:text-left xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">
-           Ege’nin Kalbinde
+            Ege’nin Kalbinde
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/01.jpg' },
-                { id: '2', img: '/images/agent/02.jpg' },
-                { id: '3', img: '/images/agent/03.jpg' },
-                { id: '4', img: '/images/agent/04.jpg' },
-                { id: '5', img: '/images/agent/05.jpg' },
-                { id: '6', img: '/images/agent/06.jpg' },
-                { id: '7', img: '/images/agent/07.jpg' },
-                { id: '8', img: '/images/agent/08.jpg' },
-                { id: '9', img: '/images/agent/09.jpg' },
+                { id: '1', img: '/images/agent/huzurun.jpg' },
+                { id: '2', img: '/images/agent/nesenin.jpg' },
+                { id: '3', img: '/images/agent/umut.jpg' },
+                { id: '4', img: '/images/agent/sevgi.jpg' },
+                { id: '5', img: '/images/agent/ses.jpg' },
+                { id: '6', img: '/images/agent/hayal.jpg' },
               ]}
             />
             İçinde  Seçkin Bir Yaşam
