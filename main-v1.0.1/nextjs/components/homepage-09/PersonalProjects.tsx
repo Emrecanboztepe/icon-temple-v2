@@ -26,7 +26,8 @@ const PersonalProjects = () => {
           <div>
             <TextAppearAnimation>
               <p className="max-w-md flex-1 md:self-end md:text-right">
-                Didim'in eşsiz doğasını modern mimariyle birleştiren, her detayı konforunuz için tasarlanmış seçkin projelerimizi keşfedin. Estetik ve yatırım değerinin buluştuğu noktadasınız.
+                Didim'in eşsiz doğasını modern mimariyle birleştiren, her detayı konforunuz için tasarlanmış seçkin
+                projelerimizi keşfedin. Estetik ve yatırım değerinin buluştuğu noktadasınız.
               </p>
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">
@@ -48,7 +49,9 @@ const PersonalProjects = () => {
               </div>
               <div className="absolute bottom-4 left-4 right-4 bg-black/80 p-2 sm:p-3 md:bottom-10 md:left-10 md:right-auto md:max-w-[535px] md:p-[30px]">
                 <div className="project-title mb-1 md:mb-5">
-                  <h3 className="text-lg font-normal md:text-[24px] lg:text-5xl lg:leading-[1.2]" style={{ color: '#ffffff' }}>
+                  <h3
+                    className="text-lg font-normal md:text-[24px] lg:text-5xl lg:leading-[1.2]"
+                    style={{ color: '#ffffff' }}>
                     {project.title}
                   </h3>
                 </div>

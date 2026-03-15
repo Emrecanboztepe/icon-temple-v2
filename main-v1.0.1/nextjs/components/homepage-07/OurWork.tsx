@@ -28,9 +28,8 @@ const OurWork = () => {
   return (
     <section className="overflow-hidden pb-10 pt-10 md:pb-12 md:pt-12 lg:pb-[66px] lg:pt-[66px] xl:pb-[75px] xl:pt-[75px]">
       <div className="container">
-        <div className="mb-6 text-center md:mb-15">
-          <RevealWrapper className="rv-badge reveal-me mb-4 md:mb-6">
-          </RevealWrapper>
+        <div className="md:mb-15 mb-6 text-center">
+          <RevealWrapper className="rv-badge reveal-me mb-4 md:mb-6"></RevealWrapper>
           <TextAppearAnimation>
             <h2 className="text-appear mx-auto max-w-[578px]">Yaşamın Her Anına Dokunan Estetik Dokunuşlar</h2>
           </TextAppearAnimation>
@@ -40,11 +39,15 @@ const OurWork = () => {
       <RevealWrapper>
         <Marquee speed={70} pauseOnHover>
           <div className="flex items-center gap-3 md:gap-[22px]">
-            {[...WORK_IMAGES.slice(0, 5), ...WORK_IMAGES.slice(0, 5), ...WORK_IMAGES.slice(0, 5)].map(({ src, alt, id }, index) => (
-              <div key={`${id}-${index}`} className="h-[200px] w-[180px] flex-shrink-0 first:ml-3 sm:h-[250px] sm:w-[220px] md:h-[352px] md:w-[278px] md:first:ml-[22px]">
-                <Image src={src} alt={alt} className="h-full w-full object-cover" />
-              </div>
-            ))}
+            {[...WORK_IMAGES.slice(0, 5), ...WORK_IMAGES.slice(0, 5), ...WORK_IMAGES.slice(0, 5)].map(
+              ({ src, alt, id }, index) => (
+                <div
+                  key={`${id}-${index}`}
+                  className="h-[200px] w-[180px] flex-shrink-0 first:ml-3 sm:h-[250px] sm:w-[220px] md:h-[352px] md:w-[278px] md:first:ml-[22px]">
+                  <Image src={src} alt={alt} className="h-full w-full object-cover" />
+                </div>
+              ),
+            )}
           </div>
         </Marquee>
       </RevealWrapper>
@@ -52,11 +55,15 @@ const OurWork = () => {
       <RevealWrapper>
         <Marquee speed={70} pauseOnHover direction="right">
           <div className="flex items-center justify-around gap-3 pt-[22px] md:gap-[22px]">
-            {[...WORK_IMAGES.toReversed(), ...WORK_IMAGES.toReversed(), ...WORK_IMAGES.toReversed()].map(({ src, alt, id }, index) => (
-              <div key={`${id}-${index}`} className="h-[200px] w-[180px] flex-shrink-0 first:ml-3 sm:h-[250px] sm:w-[220px] md:h-[352px] md:w-[278px] md:first:ml-[22px]">
-                <Image src={src} alt={alt} className="h-full w-full object-cover" />
-              </div>
-            ))}
+            {[...WORK_IMAGES.toReversed(), ...WORK_IMAGES.toReversed(), ...WORK_IMAGES.toReversed()].map(
+              ({ src, alt, id }, index) => (
+                <div
+                  key={`${id}-${index}`}
+                  className="h-[200px] w-[180px] flex-shrink-0 first:ml-3 sm:h-[250px] sm:w-[220px] md:h-[352px] md:w-[278px] md:first:ml-[22px]">
+                  <Image src={src} alt={alt} className="h-full w-full object-cover" />
+                </div>
+              ),
+            )}
           </div>
         </Marquee>
       </RevealWrapper>

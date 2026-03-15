@@ -16,26 +16,26 @@ const teamMembers: ITeamMember[] = [
     id: '1',
     image: '/images/home-ai/team/ai-team-1.png',
     title: '1+1 Daireler',
-    position: 'Icon Temple'
+    position: 'Icon Temple',
   },
   {
     id: '2',
     image: '/images/home-ai/team/ai-team-2.png',
     title: '2+1 Daireler',
-    position: 'Icon Temple'
+    position: 'Icon Temple',
   },
   {
     id: '3',
     image: '/images/home-ai/team/ai-team-3.png',
     title: '3+1 Daireler',
-    position: 'Icon Temple'
+    position: 'Icon Temple',
   },
   {
     id: '4',
     image: '/images/home-ai/team/ai-team-4.png',
     title: 'Didim',
-    position: 'Icon Temple'
-  }
+    position: 'Icon Temple',
+  },
 ]
 
 const TeamGallery = () => {
@@ -57,7 +57,7 @@ const TeamGallery = () => {
         <div className="max-lg:block lg:hidden">
           <div className="relative grid grid-cols-1 items-center justify-center gap-10 sm:grid-cols-2">
             {teamMembers.map((member) => (
-              <RevealWrapper key={member.id} className="relative group">
+              <RevealWrapper key={member.id} className="group relative">
                 <Link href={member.id === '4' ? '/didim-ozellikleri' : `/icon-temple-residence-${member.id}-1-daire`}>
                   <Image
                     src={member.image}

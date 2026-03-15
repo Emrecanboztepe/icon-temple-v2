@@ -50,12 +50,7 @@ const Didim = () => {
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-all group-hover:bg-black/50">
                 <div className="flex h-32 w-32 items-center justify-center rounded-full bg-black/80 transition-transform group-hover:scale-110">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="56"
-                    height="56"
-                    viewBox="0 0 24 24"
-                    fill="white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="white">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
@@ -80,7 +75,7 @@ const Didim = () => {
 
         {/* Mobile/Tablet Layout - Horizontal Scroll */}
         <div className="lg:hidden">
-          <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
+          <div className="scrollbar-hide flex gap-6 overflow-x-auto pb-4">
             {/* Video - İlk sırada */}
             <RevealWrapper className="flex-shrink-0">
               <div
@@ -93,12 +88,7 @@ const Didim = () => {
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/30">
                   <div className="flex h-20 w-20 items-center justify-center rounded-full bg-black/80 md:h-24 md:w-24">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 24 24"
-                      fill="white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
                       <path d="M8 5v14l11-7z" />
                     </svg>
                   </div>
@@ -110,7 +100,11 @@ const Didim = () => {
             {images.map((img) => (
               <RevealWrapper key={img.id} className="flex-shrink-0">
                 <figure className="overflow-hidden rounded-lg">
-                  <img src={img.src} alt={img.alt} className="h-[300px] w-[220px] object-cover md:h-[400px] md:w-[280px]" />
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="h-[300px] w-[220px] object-cover md:h-[400px] md:w-[280px]"
+                  />
                 </figure>
               </RevealWrapper>
             ))}
@@ -127,7 +121,14 @@ const Didim = () => {
             <button
               onClick={() => setIsVideoOpen(false)}
               className="absolute -right-4 -top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-black hover:bg-gray-200">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>

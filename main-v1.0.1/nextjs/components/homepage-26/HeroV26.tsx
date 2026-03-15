@@ -23,12 +23,13 @@ const HeroV26 = () => {
                 { id: '6', img: '/images/agent/hayal.jpg' },
               ]}
             />
-            İçinde  Seçkin Bir Yaşam
+            İçinde Seçkin Bir Yaşam
           </h1>
         </div>
 
-        <p className="mt-10 max-w-[770px] text-center font-normal lg:mx-0 lg:text-left max-lg:mx-auto">
-          Didim Altınkum'da, Temple Grup güvencesiyle yükselen Icon Temple; akıllı ev teknolojileri ve kesintisiz deniz manzarasıyla rezidans konforunu yeniden tanımlıyor.
+        <p className="mt-10 max-w-[770px] text-center font-normal max-lg:mx-auto lg:mx-0 lg:text-left">
+          Didim Altınkum'da, Temple Grup güvencesiyle yükselen Icon Temple; akıllı ev teknolojileri ve kesintisiz deniz
+          manzarasıyla rezidans konforunu yeniden tanımlıyor.
         </p>
       </RevealWrapper>
     </section>

@@ -11,7 +11,9 @@ const AboutV10 = () => {
           Yılların sektörel tecrübesiyle, mühendislik ve estetiği benzersiz bir yaşam projesinde birleştiriyoruz.
         </h4>
         <RevealWrapper as="p" className="max-w-5xl">
-          Icon Temple, her aşamasında titizlikle planlanmış teknik detayları ve dünya standartlarındaki malzeme kalitesini bir araya getiriyor. Amacımız, sadece bir konut değil; güven, teknoloji ve konforun harmanlandığı, beklentilerinizin ötesinde bir yapı sunmaktır.
+          Icon Temple, her aşamasında titizlikle planlanmış teknik detayları ve dünya standartlarındaki malzeme
+          kalitesini bir araya getiriyor. Amacımız, sadece bir konut değil; güven, teknoloji ve konforun harmanlandığı,
+          beklentilerinizin ötesinde bir yapı sunmaktır.
         </RevealWrapper>
       </div>
     </section>

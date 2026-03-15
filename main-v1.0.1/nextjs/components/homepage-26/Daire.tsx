@@ -20,9 +20,9 @@ const Daire = () => {
         <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2 lg:gap-20">
           <RevealWrapper className="order-2 md:order-1">
             <p className="mb-6 text-base leading-relaxed md:text-lg">
-              Icon Temple'da 2+1 daireler, ferahlık ve fonksiyonelliği deniz manzarasıyla birleştiriyor. Modern
-              yaşamın tüm ihtiyaçları düşünülerek tasarlanan bu daireler; yerden ısıtma sistemi ve multi split klima
-              altyapısı ile her mevsim ideal konforu sunar.
+              Icon Temple'da 2+1 daireler, ferahlık ve fonksiyonelliği deniz manzarasıyla birleştiriyor. Modern yaşamın
+              tüm ihtiyaçları düşünülerek tasarlanan bu daireler; yerden ısıtma sistemi ve multi split klima altyapısı
+              ile her mevsim ideal konforu sunar.
             </p>
             <p className="mb-8 text-base leading-relaxed md:text-lg">
               Akıllı ev otomasyonu sayesinde evinizi dijital olarak yönetebilir, ankastre mutfak ekipmanları eksiksiz

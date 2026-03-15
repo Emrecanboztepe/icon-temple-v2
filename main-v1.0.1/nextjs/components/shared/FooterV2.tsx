@@ -5,13 +5,15 @@ import Link from 'next/link'
 const FooterV2 = () => {
   return (
     <footer className="w-full overflow-hidden">
-      <div className="bg-backgroundBody dark:bg-secondary flex items-end justify-center overflow-hidden" style={{ height: '460px' }}>
+      <div
+        className="flex items-end justify-center overflow-hidden bg-backgroundBody dark:bg-secondary"
+        style={{ height: '460px' }}>
         <Image
           src="/images/footer.png"
           alt="Icon Temple Building"
           width={1400}
           height={600}
-          className="w-[83%] h-full object-contain object-bottom pointer-events-none select-none"
+          className="pointer-events-none h-full w-[83%] select-none object-contain object-bottom"
         />
       </div>
       <div className="bg-backgroundBody py-10 dark:bg-dark">
@@ -21,10 +23,18 @@ const FooterV2 = () => {
             {/* Logo and Description Section */}
             <div className="max-w-[360px] pr-8">
               <div className="mb-6">
-                <Image src="/images/logo.png" alt="Icon Temple Logo" width={150} height={60} className="h-auto w-[150px]" />
+                <Image
+                  src="/images/logo.png"
+                  alt="Icon Temple Logo"
+                  width={150}
+                  height={60}
+                  className="h-auto w-[150px]"
+                />
               </div>
               <p className="text-base leading-6">
-                Temple Grup, 1993 yılından bu yana turizm, inşaat ve tarım sektörlerinde güven ve kaliteyi esas alan çözümler sunmaktadır. Didim'in ikonik yapısı Icon Temple ile yaşam standartlarını en üst seviyeye taşımayı hedefliyoruz.
+                Temple Grup, 1993 yılından bu yana turizm, inşaat ve tarım sektörlerinde güven ve kaliteyi esas alan
+                çözümler sunmaktadır. Didim'in ikonik yapısı Icon Temple ile yaşam standartlarını en üst seviyeye
+                taşımayı hedefliyoruz.
               </p>
             </div>
 
@@ -138,7 +148,15 @@ const FooterV2 = () => {
             </div>
           </div>
           <p className="mt-10 border-t pt-5 text-center dark:border-dark">
-            Copyright © <Link href="https://purpagency.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Purp Agency</Link> 💜 Tüm Hakları Saklıdır.
+            Copyright ©{' '}
+            <Link
+              href="https://purpagency.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary">
+              Purp Agency
+            </Link>{' '}
+            💜 Tüm Hakları Saklıdır.
           </p>
         </div>
       </div>

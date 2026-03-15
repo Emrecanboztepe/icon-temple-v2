@@ -80,10 +80,7 @@ const ContactFormIconTemple = () => {
           </RevealWrapper>
 
           {/* Sağ Taraf - Form */}
-          <RevealWrapper
-            as="form"
-            onSubmit={handleSubmit}
-            className="reveal-me flex flex-col gap-[30px]">
+          <RevealWrapper as="form" onSubmit={handleSubmit} className="reveal-me flex flex-col gap-[30px]">
             {/* Ad Soyad - Full Width */}
             <div>
               <label

@@ -32,7 +32,7 @@ const homepage2 = () => {
       <OurWork />
       <Clients />
       <Didim />
-       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
+      <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
         Yeni
         <CtaImageSlider
           slides={[

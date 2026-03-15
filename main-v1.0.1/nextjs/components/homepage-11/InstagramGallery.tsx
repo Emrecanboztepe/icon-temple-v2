@@ -155,7 +155,7 @@ const InstagramGallery = () => {
         <TextAppearAnimation>
           <h2 className="text-appear mt-3">
             Icon Temple’ın mimari ruhunu ve
-            <i className="font-instrument">  modern yaşamın ayrıntılarını keşfedin.</i>
+            <i className="font-instrument"> modern yaşamın ayrıntılarını keşfedin.</i>
           </h2>
         </TextAppearAnimation>
       </div>

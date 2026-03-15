@@ -20,7 +20,8 @@ const HeroV11 = () => {
         </TextAppearAnimation>
         <TextAppearAnimation>
           <p className="text-appear text-center lg:text-left">
-            Estetiğin fonksiyonellikle buluştuğu Icon Temple projesinde, Didim'in en özel lokasyonunu premium malzeme seçimi ve üst segment işçilikle bir araya getirdik.
+            Estetiğin fonksiyonellikle buluştuğu Icon Temple projesinde, Didim'in en özel lokasyonunu premium malzeme
+            seçimi ve üst segment işçilikle bir araya getirdik.
           </p>
         </TextAppearAnimation>
       </div>

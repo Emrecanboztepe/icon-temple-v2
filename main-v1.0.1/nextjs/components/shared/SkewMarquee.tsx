@@ -80,7 +80,7 @@ const SkewMarquee = () => {
       <section className="relative w-full overflow-visible pb-16 pt-4 lg:pb-20">
         <div
           ref={containerRef}
-          className="max-w-[2000px] mx-auto"
+          className="mx-auto max-w-[2000px]"
           style={{
             transform:
               'translate3d(-200px, 80px, 0px) scale3d(1, 1, 1) rotateX(12deg) rotateY(6deg) rotateZ(352deg) skew(3deg, 359deg)',
@@ -94,7 +94,7 @@ const SkewMarquee = () => {
                   height={350}
                   src={img.src}
                   alt={`Marquee ${img.id}`}
-                  className="w-[150px] h-[175px] lg:w-[300px] lg:h-[350px] object-cover"
+                  className="h-[175px] w-[150px] object-cover lg:h-[350px] lg:w-[300px]"
                 />
               </figure>
             ))}

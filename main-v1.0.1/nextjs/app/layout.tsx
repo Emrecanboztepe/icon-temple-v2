@@ -20,9 +20,7 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body className={`${satoshi.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>
-          <SmoothScrollProvider>
-            {children}
-          </SmoothScrollProvider>
+          <SmoothScrollProvider>{children}</SmoothScrollProvider>
         </Suspense>
       </body>
     </html>

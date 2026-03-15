@@ -9,7 +9,7 @@ const data = [
     id: 1,
     title: 'Yapısal Temel ve Kaba İnşaat',
     description:
-      "Projenin iskeletinde Batıçim, Entegre ve Knauf gibi sektör devlerinin yüksek mukavemetli çimento ve alçı sistemleri kullanılmıştır. İç ve dış yüzeylerde Kalekim harç teknolojileri ile uzun ömürlü yapı standartları garanti altına alınmıştır.",
+      'Projenin iskeletinde Batıçim, Entegre ve Knauf gibi sektör devlerinin yüksek mukavemetli çimento ve alçı sistemleri kullanılmıştır. İç ve dış yüzeylerde Kalekim harç teknolojileri ile uzun ömürlü yapı standartları garanti altına alınmıştır.',
     image: '/images/services-2/service-item-1.png',
   },
   {
@@ -22,31 +22,36 @@ const data = [
   {
     id: 3,
     title: 'İklimlendirme ve Konfor (VRF)',
-    description: "İç mekân hava kalitesi ve ısı dengesi, Samsung'un gizli tesisatlı inverter multi split (VRF) klima sistemleri ile yönetilir. Siemens ankastre setleri (ocak, davlumbaz, buzdolabı, bulaşık makinesi) ile mutfaklarda üst segment bir kullanım deneyimi sunulur.",
+    description:
+      "İç mekân hava kalitesi ve ısı dengesi, Samsung'un gizli tesisatlı inverter multi split (VRF) klima sistemleri ile yönetilir. Siemens ankastre setleri (ocak, davlumbaz, buzdolabı, bulaşık makinesi) ile mutfaklarda üst segment bir kullanım deneyimi sunulur.",
     image: '/images/services-2/service-item-3.png',
   },
   {
     id: 4,
     title: 'Akıllı Cam ve Doğrama Sistemleri',
-    description: "Şişecam Isıcam K Serisi (Solar Low-E) temperli camlar ile güneş kontrolü ve ısı yalıtımı en üst seviyeye taşınmıştır. ABC Dış Cephe ve Yavuzlar Alüminyum profilleri, estetik kavisli cam tasarımlarıyla mimari bir imza oluşturur.",
+    description:
+      'Şişecam Isıcam K Serisi (Solar Low-E) temperli camlar ile güneş kontrolü ve ısı yalıtımı en üst seviyeye taşınmıştır. ABC Dış Cephe ve Yavuzlar Alüminyum profilleri, estetik kavisli cam tasarımlarıyla mimari bir imza oluşturur.',
     image: '/images/services-2/service-item-4.png',
   },
   {
     id: 5,
     title: 'Islak Hacim ve Vitrifiye Tasarımı',
-    description: 'Banyo ve mutfaklarda Hansgrohe armatürler, Ukinox granit evyeler ve Geberit gömme rezervuar sistemleri kullanılmıştır. Rimfree (kanalsız) klozet teknolojisi ile hijyen ve modern tasarım bir araya getirilmiştir.',
+    description:
+      'Banyo ve mutfaklarda Hansgrohe armatürler, Ukinox granit evyeler ve Geberit gömme rezervuar sistemleri kullanılmıştır. Rimfree (kanalsız) klozet teknolojisi ile hijyen ve modern tasarım bir araya getirilmiştir.',
     image: '/images/services-2/service-item-5.png',
   },
   {
     id: 6,
     title: 'Altyapı ve Tesisat Güvenliği',
-    description: "Su ve atık yönetiminde Egeplast, Egeyıldız ve Egep'in yüksek basınca dayanıklı boru sistemleri tercih edilmiştir. Çatı ve teras alanlarında Sim Membran'ın bitümlü su yalıtım çözümleriyle yapı güvenliği tam koruma altına alınmıştır.",
+    description:
+      "Su ve atık yönetiminde Egeplast, Egeyıldız ve Egep'in yüksek basınca dayanıklı boru sistemleri tercih edilmiştir. Çatı ve teras alanlarında Sim Membran'ın bitümlü su yalıtım çözümleriyle yapı güvenliği tam koruma altına alınmıştır.",
     image: '/images/services-2/service-item-6.png',
   },
   {
     id: 7,
     title: 'Elektrik, Otomasyon ve Donanım',
-    description: 'El-Bi Electric anahtar grupları, Uğur Kablo altyapısı ve Philips/Cata aydınlatma bileşenleri ile güvenli bir elektrik mimarisi kurulmuştur. Girişlerde Kale kilit sistemleri, iç mekanlarda ise Pimador ve Sacci gibi nitelikli donanım markaları kullanılmıştır.',
+    description:
+      'El-Bi Electric anahtar grupları, Uğur Kablo altyapısı ve Philips/Cata aydınlatma bileşenleri ile güvenli bir elektrik mimarisi kurulmuştur. Girişlerde Kale kilit sistemleri, iç mekanlarda ise Pimador ve Sacci gibi nitelikli donanım markaları kullanılmıştır.',
     image: '/images/services-2/service-item-7.png',
   },
 ]
@@ -68,7 +73,7 @@ const ServicesV10 = () => {
     const animate = () => {
       if (!isPaused && !isDragging && container) {
         container.scrollLeft += scrollSpeed
-        
+
         // Reset for infinite loop
         const maxScroll = container.scrollWidth / 4
         if (container.scrollLeft >= maxScroll) {
@@ -137,7 +142,8 @@ const ServicesV10 = () => {
           </TextAppearAnimation>
 
           <RevealWrapper as="p">
-            Temelden çatıya her noktada en iyi çözüm ortaklarıyla çalışıyoruz. Samsung, Siemens ve Hansgrohe gibi küresel markalarla donatılan Icon Temple, estetiği ileri teknolojiyle birleştiriyor.
+            Temelden çatıya her noktada en iyi çözüm ortaklarıyla çalışıyoruz. Samsung, Siemens ve Hansgrohe gibi
+            küresel markalarla donatılan Icon Temple, estetiği ileri teknolojiyle birleştiriyor.
           </RevealWrapper>
         </div>
       </div>
@@ -151,11 +157,11 @@ const ServicesV10 = () => {
           onMouseLeave={handleMouseLeave}
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
-          className="flex gap-6 overflow-x-scroll scrollbar-hide"
-          style={{ 
+          className="scrollbar-hide flex gap-6 overflow-x-scroll"
+          style={{
             cursor: isDragging ? 'grabbing' : 'grab',
             WebkitOverflowScrolling: 'touch',
-            userSelect: 'none'
+            userSelect: 'none',
           }}>
           {[...data, ...data, ...data, ...data].map((item, index) => (
             <div key={`${item.id}-${index}`} className="group w-[370px] flex-shrink-0 px-3">
@@ -163,7 +169,7 @@ const ServicesV10 = () => {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="h-auto w-full transition-transform duration-500 group-hover:scale-105 pointer-events-none"
+                  className="pointer-events-none h-auto w-full transition-transform duration-500 group-hover:scale-105"
                   draggable={false}
                 />
               </figure>

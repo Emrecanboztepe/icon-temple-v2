@@ -34,20 +34,21 @@ const OurWorkShowcase = () => {
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
         <div className="mb-8 text-center md:mb-16">
-          <RevealWrapper className="rv-badge mb-3">
-          </RevealWrapper>
+          <RevealWrapper className="rv-badge mb-3"></RevealWrapper>
           <TextAppearAnimation>
             <h2 className="text-appear mb-3">
-              Geleceği  <br />
-             İnşa Eden
-              <i className="font-instrument">  İlham Veren Yapılar</i>
+              Geleceği <br />
+              İnşa Eden
+              <i className="font-instrument"> İlham Veren Yapılar</i>
             </h2>
           </TextAppearAnimation>
           <TextAppearAnimation>
-            <p className="text-appear">Modern mimari ve üstün mühendislikle hayata geçirdiğimiz referans projelerimiz.</p>
+            <p className="text-appear">
+              Modern mimari ve üstün mühendislikle hayata geçirdiğimiz referans projelerimiz.
+            </p>
           </TextAppearAnimation>
         </div>
-        
+
         <div className="mb-[60px] grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {ourWork.slice(0, 3).map((item, index) => (
             <div key={item.slug} className="group">
