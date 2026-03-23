@@ -25,8 +25,8 @@ const HeroV9 = () => {
             </RevealWrapper>
           </div>
           <div className="w-full flex-1 max-lg:self-center">
-            <RevealWrapper as="figure" className="reveal-me">
-              <Image src={hero03} alt="Hero Img 03" className="w-full" />
+            <RevealWrapper as="figure" className="reveal-me max-lg:overflow-hidden">
+              <Image src={hero03} alt="Hero Img 03" className="w-full max-lg:aspect-[4/3] max-lg:object-cover" />
             </RevealWrapper>
           </div>
         </div>

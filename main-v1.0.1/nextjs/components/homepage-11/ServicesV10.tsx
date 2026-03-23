@@ -54,6 +54,13 @@ const data = [
       'El-Bi Electric anahtar grupları, Uğur Kablo altyapısı ve Philips/Cata aydınlatma bileşenleri ile güvenli bir elektrik mimarisi kurulmuştur. Girişlerde Kale kilit sistemleri, iç mekanlarda ise Pimador ve Sacci gibi nitelikli donanım markaları kullanılmıştır.',
     image: '/images/services-2/service-item-7.png',
   },
+  {
+    id: 8,
+    title: 'Güçlendirilmiş Temel Yalıtımı ve Membran Uygulaması',
+    description:
+      "Projemiz denize 30 metre mesafede olduğu için, su yalıtımı ve temel izolasyonu en üst standartta tutulmuştur. Temel ile betonarme yapı arasında yüksek dayanımlı membran sistemi uygulanarak, zeminden gelebilecek su ve nemin temelle teması kesilmiştir. Bu uygulama, korozyon, rutubet ve su sızıntısı risklerini minimize eder, yapının dayanıklılığını ve daire konforunu artırır.",
+    image: '/images/services-2/yalıtım.png',
+  },
 ]
 
 const ServicesV10 = () => {
