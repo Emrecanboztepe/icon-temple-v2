@@ -15,21 +15,21 @@ const teamMembers: ITeamMemberHome[] = [
   {
     id: '2',
     image: '/images/portfolio/project-img-01.png',
-    title: 'Tarihle İç İçe Bir Yaşam',
+    title: 'Tarihi Başyapıt: Apollon Tapınağı',
     position: 'Didim',
     link: '/didim-ozellikleri',
   },
   {
     id: '3',
     image: '/images/portfolio/project-img-04.png',
-    title: 'Dört Mevsim Yaşayan Şehir',
+    title: 'Huzurlu Bir Doğa: Ege Rivierası',
     position: 'Didim',
     link: '/didim-ozellikleri',
   },
   {
     id: '4',
     image: '/images/hero-img/hero-img-03.png',
-    title: "Ege'nin Prestijli Yatırımı",
+    title: "Seçkin Eğlence Mekanları",
     position: 'Didim',
     link: '/didim-ozellikleri',
   },
@@ -43,7 +43,7 @@ const TeamGalleryHome = () => {
           <SectionHeader
             italicTitle="Didim'in İkonik"
             headingTitle="Yaşam Alanları"
-            description="Modern mimariyi Didim'in eşsiz doğasıyla buluşturuyoruz. Her biri özenle seçilmiş projelerimizle, sadece bir ev değil, seçkin bir yaşam tarzı sunuyoruz."
+            description="Ege’nin eşsiz doğası, tarihi, eğlencesi ve keyfi ile yaşam çizginiz buluşmak üzere… Her biri özenle hazırlanan detaylarıyla sadece bir ev değil, özel bir ritüele davetlisiniz."
           />
         </div>
 

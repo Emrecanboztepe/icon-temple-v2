@@ -20,14 +20,13 @@ const PersonalProjects = () => {
         <div className="mb-10 flex flex-col items-center justify-center md:mb-20 md:flex-row md:justify-between">
           <TextAppearAnimation>
             <h2 className="text-appear flex-1">
-              Seçili Portföy & <i className="font-instrument">Yaşam Alanları</i>
+              Seçili Portföy & <i className="font-instrument">Destinasyon Didim</i>
             </h2>
           </TextAppearAnimation>
           <div>
             <TextAppearAnimation>
               <p className="max-w-md flex-1 md:self-end md:text-right">
-                Didim'in eşsiz doğasını modern mimariyle birleştiren, her detayı konforunuz için tasarlanmış seçkin
-                projelerimizi keşfedin. Estetik ve yatırım değerinin buluştuğu noktadasınız.
+                Didim sadece haritada bir lokasyon değil; Altınkum’un ılık rüzgarı, gizli koyların sessizliği ve Apollon’un binlerce yıllık mirasıyla şekillenen bir yaşam felsefesi. Hayatın hızını yavaşlatıp, Ege'nin o keyifli ritmine kendinizi bırakın…
               </p>
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">

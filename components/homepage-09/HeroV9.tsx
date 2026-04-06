@@ -14,7 +14,7 @@ const HeroV9 = () => {
           <div className="w-full flex-1 max-lg:self-center">
             <TextAppearAnimation>
               <h1 className="text-appear mb-10 text-center lg:mb-16 lg:text-left xl:mb-24 xl:text-[85px] xl:leading-[1.22]">
-                Ege'nin Kalbi<i className="block font-instrument italic">Altınkum'un</i> İmzası: Didim'de Yaşam
+                Kendinizi Bulabileceğiniz <i className="block font-instrument italic">Yepyeni </i> Bir Deneyim: Didim
               </h1>
             </TextAppearAnimation>
             <RevealWrapperV2 as="figure" className="reveal-me mb-4 w-full lg:mb-6">

@@ -1,34 +1,38 @@
-import Image from 'next/image'
+import { FC } from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 import TextAppearAnimation from '../animation/TextAppearAnimation'
 
-const Daire = () => {
-  const features = [
-    "Mavi Bayraklı Plaj: Denize sadece 30 Metre mesafede, Altınkum'un kalbinde.",
-    'Şehir Merkezi: Didim merkezine ve alışveriş noktalarına yalnızca 3.5 km uzaklıkta.',
-    "Ulaşım Kolaylığı: Milas-Bodrum Havalimanı'na 145 km konforlu sürüş mesafesi.",
-    'Antik Miras: Apollon Tapınağı ve tarihi gezi alanlarına dakikalar içinde ulaşım.',
-  ]
+interface DaireProps {
+  title?: string
+  paragraph1?: string
+  paragraph2?: string
+  features?: string[]
+}
 
+const defaultFeatures = [
+  "Mavi Bayraklı Plaj: Denize sadece 30 Metre mesafede, Altınkum'un kalbinde.",
+  'Şehir Merkezi: Didim merkezine ve alışveriş noktalarına yalnızca 3.5 km uzaklıkta.',
+  "Kesintisiz Sosyal Hayat: Altınkum'un popüler beach club'larına, trend mekanlarına veya canlı gece hayatına anında erişim.",
+  'Antik Miras: Apollon Tapınağı ve tarihi gezi alanlarına dakikalar içinde ulaşım.',
+]
+
+const Daire: FC<DaireProps> = ({
+  title = 'Akıllı, Pratik ve Tamamen Size Ait 1+1 Daire Deneyimi',
+  paragraph1 = "Icon Temple'daki 1+1 daireler; modern hayatın hızını, deniz manzarasının dinginliğiyle dengeliyor. Valizinizi alıp anın tadını çıkarmaya başlamanız için premium ankastre mutfağınızdan yerden ısıtmaya, akıllı ev otomasyonundan multi-split klima altyapısına kadar her detayı eksiksiz kurguladık.",
+  paragraph2 = "Altınkum'un kalbinde olmanın enerjisini yaşarken, kusursuz ses ve ısı yalıtımı sayesinde dilediğiniz an dış dünyayı sessize alabileceğiniz, keyfinizi özgürce yaşayabileceğiniz kompakt ama lüks bir yaşam ritüeli",
+  features = defaultFeatures,
+}) => {
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
         <TextAppearAnimation>
-          <h2 className="text-appear mb-10 text-center md:mb-20">2+1 Daire</h2>
+          <h2 className="text-appear mb-10 text-center md:mb-20">{title}</h2>
         </TextAppearAnimation>
 
         <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2 lg:gap-20">
           <RevealWrapper className="order-2 md:order-1">
-            <p className="mb-6 text-base leading-relaxed md:text-lg">
-              Icon Temple'da 2+1 daireler, ferahlık ve fonksiyonelliği deniz manzarasıyla birleştiriyor. Modern yaşamın
-              tüm ihtiyaçları düşünülerek tasarlanan bu daireler; yerden ısıtma sistemi ve multi split klima altyapısı
-              ile her mevsim ideal konforu sunar.
-            </p>
-            <p className="mb-8 text-base leading-relaxed md:text-lg">
-              Akıllı ev otomasyonu sayesinde evinizi dijital olarak yönetebilir, ankastre mutfak ekipmanları eksiksiz
-              teslim edilen mutfağınızda taşınmaya hazır lüksün keyfini çıkarabilirsiniz. Yüksek ısı ve ses yalıtımı
-              standartlarıyla, Altınkum'un merkezinde huzurlu ve sessiz bir yaşam sizi bekliyor.
-            </p>
+            <p className="mb-6 text-base leading-relaxed md:text-lg">{paragraph1}</p>
+            <p className="mb-8 text-base leading-relaxed md:text-lg">{paragraph2}</p>
 
             {/* Tikli Liste */}
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -52,7 +56,7 @@ const Daire = () => {
             <figure className="relative">
               <img
                 src="/images/hero-img/about-hero-1.png"
-                alt="2+1 Daire Plan"
+                alt="Daire Plan"
                 className="h-auto w-full rounded-lg shadow-lg"
               />
             </figure>

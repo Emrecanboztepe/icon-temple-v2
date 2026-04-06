@@ -144,12 +144,12 @@ const ServicesV10 = () => {
         <div className="mb-8 text-center md:mb-14">
           <TextAppearAnimation>
             <h2 className="text-appear my-3">
-              Kusursuz detaylar, <i className="font-instrument">kalıcı eserler</i>
+              Kusursuz Detaylardan Doğan <i className="font-instrument">Kalıcı Bir Eser</i>
             </h2>
           </TextAppearAnimation>
 
           <RevealWrapper as="p">
-            Temelden çatıya her noktada en iyi çözüm ortaklarıyla çalışıyoruz. Samsung, Siemens ve Hansgrohe gibi
+            Temelden çatıya her noktada en iyi çözüm ortaklarıyla çalışıyoruz. Samsung, Philips, Hansgrohe, Geberit gibi
             küresel markalarla donatılan Icon Temple, estetiği ileri teknolojiyle birleştiriyor.
           </RevealWrapper>
         </div>

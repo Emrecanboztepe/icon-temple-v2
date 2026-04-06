@@ -23,7 +23,7 @@ const FaqV2: FC<PropsType> = ({ titleChange = false }) => {
             headingTitle="Sorulan Sorular"
             titleChange={titleChange}
             italicTitle="Sıkça"
-            description="Icon Temple projesi hakkında merak ettiğiniz teknik detaylar, lokasyon avantajları ve yatırım fırsatları ile ilgili tüm sorularınızın yanıtlarına buradan ulaşabilirsiniz."
+            description="Icon Temple hakkında merak ettiğiniz cevaplara daha hızlı ulaşabilmeniz için sıkça sorulan soruları derledik. Projenin tüm detaylarına ulaşmak için satış destek ekibimiz iletişime geçebilirsiniz"
           />
         </div>
 

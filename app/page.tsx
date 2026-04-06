@@ -20,12 +20,16 @@ const Home = () => {
       <HeroV7 />
       <AboutV15
         badge="Hakkımızda "
-        title="35 Yıllık Tecrübe ve Yenilikçi Vizyonun Buluşma Noktası"
-        subTitle="Icon Temple, grubumuzun turizmdeki hizmet kalitesini ve inşaattaki uzmanlığını bir araya getiren en yeni vizyon projesidir. Altınkum sahilinde, denize sadece 30 metre mesafede konumlanan bu ikonik yapı; üst segment rezidans standartlarını, akıllı ev teknolojileri ve zamansız bir estetikle harmanlayarak Didim'in çehresini değiştiriyor."
+        title="Turizmdeki Misafirperverlik Kültürümüzü, Yuva Sıcaklığıyla Yeniden Tanımladık."
+        subTitle="35 yılı aşkın turizm tecrübemiz ve yenilikçi inşaat vizyonumuz, konforunuz için bir araya geldi. Altınkum sahilinde, denizin mavisine sadece 30 adım mesafede yükselen Icon Temple; üst segment işçiliği ikonik bir zarafetle buluşturan, lüks ve huzurun Didim'deki yeni odağı."
         buttonText="Daha fazla bilgi "
         buttonLink="/hakkimizda"
       />
-      <Clients />
+      <Clients
+        italicTitle="Güçlü Geçmiş"
+        headingTitle="Güvenli Gelecek"
+        description="Sektörün öncü markalarıyla iş birliği yaparak yüksek kalite standartlarını evinize taşıdık."
+      />
       <VideoV2 />
       <OurWorkShowcase />
       <OurWork />

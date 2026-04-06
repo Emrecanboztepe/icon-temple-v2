@@ -15,7 +15,11 @@ const page = () => {
       <HeroV9 />
       <AboutV7 />
       <PersonalProjects />
-      <OurWorkShowcase />
+      <OurWorkShowcase
+        headingBefore="Geleceği inşa eden"
+        headingItalic="İlham Veren Yapılar"
+        subtitle="Modern mimari ve üstün mühendislikle hayata geçirdiğimiz referans projelerimiz."
+      />
       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
         Yeni
         <CtaImageSlider

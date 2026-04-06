@@ -17,17 +17,25 @@ export const metadata = {
 const IconTempleResidence31Daire = () => {
   return (
     <LayoutOne>
-      <HeroV26 />
+      <HeroV26 description="Sadece bir ev değil, kalabalık sofraların neşesini kişisel alanların dinginliğiyle dengeleyen yepyeni bir yaşam ritüeli. İki kata yayılan özgürlük hissi, üst düzey akıllı donanımları ve sınırları tamamen kaldıran panoramik manzarası ile 3+1 dublekslerimiz; hem sevdikleriyle hep bir arada olmak hem de dilediği an kendi huzuruna çekilmek isteyenlere Ege'nin en ferah halini vadediyor." />
       <VideoV2 />
       <AboutV15
-        badge="Hakkımızda"
-        title="35 Yıllık Tecrübe ve Yenilikçi Vizyonun Buluşma Noktası"
-        subTitle="Icon Temple, grubumuzun turizmdeki hizmet kalitesini ve inşaattaki uzmanlığını bir araya getiren en yeni vizyon projesidir. Altınkum sahilinde, denize sadece 30 metre mesafede konumlanan bu ikonik yapı; üst segment rezidans standartlarını, akıllı ev teknolojileri ve zamansız bir estetikle harmanlayarak Didim'in çehresini değiştiriyor."
-        description="1993 yılından bu yana turizm, inşaat ve tarım sektörlerinde güvenin simgesi olan Temple Grup; Ege'nin en değerli lokasyonlarında nitelikli yaşam alanları geliştirmeye devam ediyor."
+        title="Turizmdeki 35 yılı aşkın kusursuz konaklama anlayışımızı, sizlere kalıcı bir tatil deneyimi sunmak için Icon Temple’a aktardık. "
+        subTitle="Köklerimiz 1993’e, vizyonumuz yarına dayanıyor. Temple Grup güvencesiyle, Ege'nin en değerli lokasyonlarında sınırları kaldıran ve modern hayatın hızına ayak uyduran bir proje ile karşınızdayız."
         buttonText="Daha fazla bilgi "
         buttonLink="/hakkimizda"
       />
-      <Daire />
+      <Daire
+        title="İhtişamı ve Özgürlüğü Zirvede Yaşatan: 3+1 Dubleks Deneyimi"
+        paragraph1="Icon Temple'daki 3+1 Dubleksler; iki kata yayılan hacmiyle hayatınızın en güzel anılarına eksiksiz bir sahne sunuyor. Siz sadece sevdiklerinizle geçireceğiniz zamana odaklanın diye; premium ankastre donanımlarından tüm eve yayılan kusursuz iklimlendirme altyapısına ve hayatı kolaylaştıran akıllı teknolojilere kadar her şeyi biz düşündük."
+        paragraph2="Altınkum'un o canlı ritmine sadece adımlar uzaktayken; üst düzey ses yalıtımı ve panoramik ferahlığı sayesinde, ailenizdeki herkesin dilediği an kendi izole dünyasına çekilebileceği, nefes aldıran bir Didim ritüeli."
+        features={[
+          "Mavi Bayraklı Plaj: Denize sadece 30 Metre mesafede, Altınkum'un kalbinde.",
+          "Şehir Merkezi: Didim merkezine ve alışveriş noktalarına yalnızca 3.5 km uzaklıkta.",
+          "Ayrıcalıklı Ev Sahipliği: En özel misafirlerinizi ve uzun gece sohbetlerini Ege manzaranıza karşı yaşayın.",
+          "Antik Miras: Apollon Tapınağı ve tarihi gezi alanlarına dakikalar içinde ulaşım.",
+        ]}
+      />
       <WhyChooseUsV3 />
       <OurWork />
       <Clients />

@@ -1,3 +1,4 @@
+import { FC } from 'react'
 import SectionHeader from '../shared/SectionHeader'
 
 import Image from 'next/image'
@@ -80,16 +81,26 @@ const reverseCompany = [
   },
 ]
 
-const Clients = () => {
+interface ClientsProps {
+  headingTitle?: string
+  italicTitle?: string
+  description?: string
+}
+
+const Clients: FC<ClientsProps> = ({
+  headingTitle = 'Güvenli Gelecek',
+  italicTitle = 'Güçlü Geçmiş',
+  description = 'Bir İnşaat projesinin değerinin ve kalitesinin sadece lokasyon veya metrekare ile ilgili olmadığını çok iyi biliyoruz. Bizim için Değer ve Kalite kavramları, projenin temelinden başlayarak hayatınıza dokunacak tüm yapı malzemelerinde somutlaştırılmalıdır. Alt Kısımdaki Logolar mevcut ',
+}) => {
   return (
     <section className="relative mb-14 mt-14 overflow-hidden bg-dark py-20 dark:py-0 md:mb-16 md:mt-16 lg:mb-[88px] lg:mt-[88px] lg:py-[120px] dark:lg:py-0 xl:mb-[100px] xl:mt-[100px]">
       <div className="container">
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-3 md:mb-20 md:flex-row md:items-end md:justify-between">
           <SectionHeader
-            headingTitle="Güçlü Geçmiş"
-            italicTitle="Güvenli Gelecek"
+            headingTitle={headingTitle}
+            italicTitle={italicTitle}
             serviceHeadingColor
-            description="Temple Grup çatısı altındaki otellerimiz ve tarımsal işletmelerimizle, farklı sektörlerdeki tecrübemizi Icon Temple'ın her detayına yansıtıyoruz."
+            description={description}
           />
         </div>
       </div>

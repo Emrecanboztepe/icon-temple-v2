@@ -1,3 +1,4 @@
+import { FC } from 'react'
 import getMarkDownData from '@/utils/GetMarkDownData'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
@@ -7,6 +8,12 @@ interface WorkType {
   slug: string
   content: string
   [key: string]: any
+}
+
+interface OurWorkShowcaseProps {
+  headingBefore?: string
+  headingItalic?: string
+  subtitle?: string
 }
 
 const ourWork: WorkType[] = getMarkDownData('data/flim-making/project')
@@ -29,7 +36,11 @@ const daireler = [
   },
 ]
 
-const OurWorkShowcase = () => {
+const OurWorkShowcase: FC<OurWorkShowcaseProps> = ({
+  headingBefore,
+  headingItalic,
+  subtitle,
+}) => {
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
@@ -37,14 +48,14 @@ const OurWorkShowcase = () => {
           <RevealWrapper className="rv-badge mb-3"></RevealWrapper>
           <TextAppearAnimation>
             <h2 className="text-appear mb-3">
-              Geleceği <br />
-              İnşa Eden
-              <i className="font-instrument"> İlham Veren Yapılar</i>
+              {headingBefore || <>Didim&apos;in <br /> Yeni İkonunda</>}
+              {' '}
+              <i className="font-instrument">{headingItalic || 'Size Özel Bir Ritüel'}</i>
             </h2>
           </TextAppearAnimation>
           <TextAppearAnimation>
             <p className="text-appear">
-              Modern mimari ve üstün mühendislikle hayata geçirdiğimiz referans projelerimiz.
+              {subtitle || 'Modern mimariyi üst düzey konforla birleştiren projemizde, aileniz ve sizin için en uygun daire tipini keşfedin.'}
             </p>
           </TextAppearAnimation>
         </div>

@@ -16,25 +16,25 @@ const teamMembers: ITeamMember[] = [
     id: '1',
     image: '/images/home-ai/team/ai-team-1.png',
     title: '1+1 Daireler',
-    position: 'Icon Temple',
+    position: 'Detayları İncele',
   },
   {
     id: '2',
     image: '/images/home-ai/team/ai-team-2.png',
     title: '2+1 Daireler',
-    position: 'Icon Temple',
+    position: 'Detayları İncele',
   },
   {
     id: '3',
     image: '/images/home-ai/team/ai-team-3.png',
     title: '3+1 Dublex Daireler',
-    position: 'Icon Temple',
+    position: 'Detayları İncele',
   },
   {
     id: '4',
     image: '/images/home-ai/team/ai-team-4.png',
     title: 'Didim',
-    position: 'Icon Temple',
+    position: 'Detayları İncele',
   },
 ]
 
@@ -44,9 +44,9 @@ const TeamGallery = () => {
       <div className="container w-full">
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-2 md:mb-20 md:flex-row md:items-center lg:justify-between">
           <SectionHeader
-            italicTitle="Yaşam"
-            headingTitle="Alanları"
-            description="Icon Temple'da her ihtiyaca uygun, modern mimariyle şekillenmiş daire seçenekleri. Geniş yaşam alanları ve yüksek konfor standartlarıyla tasarlanan 1+1, 2+1 ve 3+1 dublex dairelerimizi keşfedin."
+            italicTitle="Daire"
+            headingTitle="Seçkisi"
+            description="Farklı yaşam senaryoları için tasarlanmış 1+1, 2+1 ve 3+1 daire tiplerimiz, geniş yaşam alanları ve yüksek konfor standartlarıyla keşfinizi bekliyor"
           />
         </div>
 

@@ -31,7 +31,7 @@ const OurWork = () => {
         <div className="md:mb-15 mb-6 text-center">
           <RevealWrapper className="rv-badge reveal-me mb-4 md:mb-6"></RevealWrapper>
           <TextAppearAnimation>
-            <h2 className="text-appear mx-auto max-w-[578px]">Yaşamın Her Anına Dokunan Estetik Dokunuşlar</h2>
+            <h3 className="text-appear mx-auto max-w-[578px]">Fotoğraflara Değil Yarınlarınıza Göz Atın</h3>
           </TextAppearAnimation>
         </div>
       </div>

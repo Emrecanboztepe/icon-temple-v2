@@ -21,7 +21,20 @@ const homepage11 = () => {
       <AboutV10 />
       <Clients />
       <ServicesV10 />
-      <WhyChooseUsV3 />
+      <WhyChooseUsV3
+        mainTitle="Dokunduğunuz Her Detayda Hissedeceğiniz Güven"
+        subTitle="Geçici trendler değil; Uzun yıllarınıza sorunsuz eşlik edecek kalıcı ve akılcı seçimler."
+        box1Title="İkonik Mimari Tasarım"
+        box1Desc="Hem enerjinizi yansıtan hem de ruhunuzu dinlendiren modern mimari çizgiler."
+        box2Title="Dört Mevsim İdeal İklim"
+        box2Desc="Yerden ısıtma ve gizli tesisatlı multi split inverter klima sistemi ile her mevsim, istediğiniz iklim."
+        box3Title="Hayatı Kolaylaştıran Teknoloji"
+        box3Desc="Aydınlatmadan güvenliğe kadar tüm evinizi tek tuşla veya uzaktan, zahmetsizce yönetebilme özgürlüğü."
+        box4Title="Özgürlük ve Huzurun Dengesi"
+        box4Desc="Dış dünyanın karmaşasını kapıda bırakan, mutlak sessizlik ve mahremiyet sağlayan birinci sınıf yalıtım teknolojisi."
+        box5Title="Eksiksiz Premium Donanım"
+        box5Desc="Şık davetlerinize eşlik edecek tam donanımlı ankastre set ve uzun yıllar güvenle kullanacağınız birinci sınıf malzemeler."
+      />
       <OurWork />
       <CTA buttonText="ŞİMDİ İLETİŞİME GEÇİN">
         Yeni
