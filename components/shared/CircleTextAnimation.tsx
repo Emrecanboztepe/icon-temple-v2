@@ -1,6 +1,6 @@
 'use client'
-import textCircleDarkLogo from '@/public/images/icons/text-circle-dark-logo.png'
-import textCircleLogo from '@/public/images/icons/text-circle-logo.png'
+import textCircleDarkLogo from '@/public/images/icons/text-circle-dark-logo.webp'
+import textCircleLogo from '@/public/images/icons/text-circle-logo.webp'
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 

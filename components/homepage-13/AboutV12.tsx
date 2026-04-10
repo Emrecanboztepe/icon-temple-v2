@@ -19,7 +19,7 @@ const AboutV12 = () => {
         </div>
         <RevealWrapper className="mt-8 flex flex-col items-center justify-between gap-y-5 md:mt-16 md:flex-row md:gap-x-[30px]">
           <figure className="w-full md:h-[400px] md:w-[570px]">
-            <img src="/images/home-3/about-banner.png" alt="about-banner" className="w-full" />
+            <img src="/images/home-3/about-banner.webp" alt="about-banner" className="w-full" />
           </figure>
           <figcaption>
             <p className="max-w-xl">

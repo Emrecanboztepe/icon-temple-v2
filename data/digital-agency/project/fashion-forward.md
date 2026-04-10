@@ -1,5 +1,5 @@
 ---
-image: '/images/services-2/services-4.png'
+image: '/images/services-2/services-4.webp'
 alt: 'Mobile Solutions'
 category: 'Mobile Solutions'
 title: 'Fashion Forward'
@@ -17,7 +17,7 @@ With Web, designers can simply drag and drop elements onto the canvas, customize
 
 One of Web’s standout features is its dynamic CMS. Unlike traditional static website builders, this CMS enables users to effortlessly create and manage dynamic content. Whether it's blog posts, product listings, or other data-driven content, users can easily add and update content without navigating complex code.
 
-![Project images](/images/project-details/project-details-2-banner.png)
+![Project images](/images/project-details/project-details-2-banner.webp)
 
 ### Who Is Website Designed For?
 
@@ -30,3 +30,4 @@ Website offers an ideal creative space for web designers, allowing them to fully
 ### E-commerce Stores
 
 Website is perfect for e-commerce businesses, offering tools to easily set up and manage online stores. With integrated features for product listings, payment options, and order management, businesses can create a seamless shopping experience without needing complex coding or third-party plugins.
+

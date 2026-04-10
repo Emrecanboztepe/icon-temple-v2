@@ -53,7 +53,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-2.png"
+                  src="/images/services/services-2.webp"
                   alt="Services Image"
                 />
               </figure>
@@ -79,7 +79,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-3.png"
+                  src="/images/services/services-3.webp"
                   alt="Services Image"
                 />
               </figure>
@@ -105,7 +105,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-4.png"
+                  src="/images/services/services-4.webp"
                   alt="Services Image"
                 />
               </figure>
@@ -131,7 +131,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-5.png"
+                  src="/images/services/services-5.webp"
                   alt="Services Image"
                 />
               </figure>
@@ -157,7 +157,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-6.png"
+                  src="/images/services/services-6.webp"
                   alt="Services Image"
                 />
               </figure>
@@ -183,7 +183,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-7.png"
+                  src="/images/services/services-7.webp"
                   alt="Services Image"
                 />
               </figure>
@@ -209,7 +209,7 @@ const OurProject = () => {
               <figure className="overflow-hidden">
                 <img
                   className="block h-full w-full transition-all duration-500 hover:scale-125"
-                  src="/images/services/services-8.png"
+                  src="/images/services/services-8.webp"
                   alt="Services Image"
                 />
               </figure>

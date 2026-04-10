@@ -9,7 +9,7 @@ const HeroV13 = () => {
         {/* Gradient Background Effect */}
         <div className="h-fw-full absolute left-1/2 top-1/2 -z-10 w-full -translate-x-1/2 -translate-y-1/2 scale-75 blur-[60px]">
           <img
-            src="/images/hero-gradient-bg.png"
+            src="/images/hero-gradient-bg.webp"
             alt="hero-gradient-background"
             className="absolute left-[42%] top-[44%] -translate-x-1/2 -translate-y-1/2"
           />

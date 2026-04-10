@@ -8,7 +8,7 @@ const data = [
       "The level of innovation and technical expertise demonstrated by this team is outstanding. They've transformed our digital presence completely.",
     authorName: 'Kristin Watson',
     authorRole: 'CEO, Tech Innovators',
-    authorImage: '/images/avatar/review-13.png',
+    authorImage: '/images/avatar/review-13.webp',
     rating: 5,
   },
   {
@@ -17,7 +17,7 @@ const data = [
       'Working with this team has been a game-changer for our business. Their attention to detail and creative solutions exceeded our expectations.',
     authorName: 'Marcus Rodriguez',
     authorRole: 'Founder, Innovation Labs',
-    authorImage: '/images/avatar/review-13.png',
+    authorImage: '/images/avatar/review-13.webp',
     rating: 4,
   },
   {
@@ -26,7 +26,7 @@ const data = [
       'The collaboration with this team has been exceptional. Their insights and strategies have significantly improved our project outcomes.',
     authorName: 'Emily Johnson',
     authorRole: 'Project Manager, Creative Agency',
-    authorImage: '/images/avatar/review-14.png',
+    authorImage: '/images/avatar/review-14.webp',
     rating: 5,
   },
   {
@@ -34,7 +34,7 @@ const data = [
     reviewText: 'Their commitment to excellence and innovative approach has made a significant impact on our success.',
     authorName: 'John Doe',
     authorRole: 'Marketing Director, Global Corp',
-    authorImage: '/images/avatar/review-15.png',
+    authorImage: '/images/avatar/review-15.webp',
     rating: 3,
   },
   {
@@ -43,7 +43,7 @@ const data = [
       'The support and guidance provided by this team have been invaluable. They truly care about their clients and their success.',
     authorName: 'Jane Smith',
     authorRole: 'Operations Manager, Future Tech',
-    authorImage: '/images/avatar/review-16.png',
+    authorImage: '/images/avatar/review-16.webp',
     rating: 2,
   },
   {
@@ -52,7 +52,7 @@ const data = [
       'Their innovative solutions and proactive approach have helped us achieve our goals faster than we anticipated.',
     authorName: 'Michael Brown',
     authorRole: 'Product Owner, NextGen Solutions',
-    authorImage: '/images/avatar/review-17.png',
+    authorImage: '/images/avatar/review-17.webp',
     rating: 4,
   },
 ]

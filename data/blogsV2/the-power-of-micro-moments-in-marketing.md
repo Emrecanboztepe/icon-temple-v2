@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-1.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-1.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Power of Micro-Moments in Marketing'
 description: 'Learn how to capitalize on micro-moments to drive consumer engagement in 2024.'
 date: 'April 24, 2025'
@@ -25,7 +25,7 @@ To succeed in micro-moment marketing, consider:
 2. **Leverage Visual Search:** Use tools like Google Lens to enhance discoverability.
 3. **Be Proactive:** Anticipate consumer needs and provide instant solutions.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in micro-moment marketing include:
 - **Platform Fragmentation:** Adapting to diverse consumer touchpoints.
 
 By staying agile and consumer-focused, brands can dominate micro-moments.
+

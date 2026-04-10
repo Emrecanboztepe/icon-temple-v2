@@ -89,7 +89,7 @@ const CareerDetailsArticle = ({ careerContent }: { careerContent: string }) => {
                         <input
                           type="file"
                           className="hidden"
-                          accept=".pdf,.doc,.docx,.png,.jpg"
+                          accept=".pdf,.doc,.docx,.webp,.webp"
                           onChange={handleFileChange}
                         />
                         <span className="inline-flex rounded-full border border-secondary/30 bg-backgroundBody px-4 py-2 text-[12px] text-secondary/70 transition-colors hover:bg-gray-100 dark:border-backgroundBody/30 dark:bg-dark/10 dark:text-backgroundBody/70 dark:hover:bg-dark-300">
@@ -145,7 +145,7 @@ const CareerDetailsArticle = ({ careerContent }: { careerContent: string }) => {
                           <input
                             type="file"
                             className="hidden"
-                            accept=".pdf,.doc,.docx,.png,.jpg"
+                            accept=".pdf,.doc,.docx,.webp,.webp"
                             onChange={handleFileChange}
                           />
                           <figure className="inline-flex gap-2 rounded-full border border-secondary/30 px-2 py-1 text-base text-secondary/70 transition-colors hover:bg-gray-100 dark:border-backgroundBody/30 dark:bg-dark/10 dark:text-backgroundBody/70 dark:hover:bg-dark-300 md:px-6 md:py-3">
@@ -189,3 +189,4 @@ const CareerDetailsArticle = ({ careerContent }: { careerContent: string }) => {
 }
 
 export default CareerDetailsArticle
+

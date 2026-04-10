@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-5.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-5.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The New Era of Digital Advertising'
 description: 'Explore how consumer expectations, technologies, and platforms are reshaping digital advertising in 2024.'
 date: 'february 05, 2024'
@@ -25,7 +25,7 @@ As the landscape shifts, advertisers need to rethink their strategies. Key steps
 2. **Experimenting with Immersive Media:** Use AR/VR to create memorable ad experiences.
 3. **Partnering with Influencers:** Collaborate with creators who align with your brand values for authentic connections.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ The rapidly changing landscape poses challenges, such as:
 - **Platform Diversity:** Developing ads that perform well across multiple platforms and formats.
 
 By staying flexible and embracing innovation, businesses can turn challenges into opportunities.
+

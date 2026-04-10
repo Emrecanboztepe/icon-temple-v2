@@ -8,7 +8,7 @@ const OurExpertiseV3 = () => {
       <div className="container">
         <div className="grid grid-cols-12 items-start gap-y-16 lg:gap-x-16">
           <RevealWrapper as="figure" className="col-span-12 h-full lg:col-span-6">
-            <img src="/images/avatar/expertise.png" alt="expertise" className="h-full w-full max-w-full object-cover" />
+            <img src="/images/avatar/expertise.webp" alt="expertise" className="h-full w-full max-w-full object-cover" />
           </RevealWrapper>
           <div className="col-span-12 lg:col-span-6">
             <div className="space-y-3">

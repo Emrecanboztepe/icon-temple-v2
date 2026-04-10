@@ -1,28 +1,28 @@
 const galleryData = [
   {
     id: 1,
-    src: '/images/career-img/career-img-1.png',
+    src: '/images/career-img/career-img-1.webp',
     alt: 'Team collaborating in modern office space',
     className: 'w-full lg:w-full lg:object-cover',
     order: 'md:order-4 lg:order-first',
   },
   {
     id: 2,
-    src: '/images/career-img/career-img-2.png',
+    src: '/images/career-img/career-img-2.webp',
     alt: 'Creative workshop session with design team',
     className: 'w-full lg:w-1/3 lg:absolute lg:top-[57px] z-10',
     order: 'place-self-start',
   },
   {
     id: 3,
-    src: '/images/career-img/career-img-3.png',
+    src: '/images/career-img/career-img-3.webp',
     alt: 'Modern collaborative workspace environment',
     className: 'w-full lg:absolute lg:bottom-10 lg:w-fit -z-0',
     order: 'lg:place-self-end',
   },
   {
     id: 4,
-    src: '/images/career-img/career-img-4.png',
+    src: '/images/career-img/career-img-4.webp',
     alt: 'Team building and social activities',
     className: 'w-full',
     order: '',

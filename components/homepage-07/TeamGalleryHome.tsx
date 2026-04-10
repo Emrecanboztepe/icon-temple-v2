@@ -7,28 +7,28 @@ import TeamsHome, { ITeamMemberHome } from './TeamsHome'
 const teamMembers: ITeamMemberHome[] = [
   {
     id: '1',
-    image: '/images/portfolio/project-img-02.png',
+    image: '/images/portfolio/project-img-02.webp',
     title: 'Mavinin Kalbi: Altınkum Sahili',
     position: 'Didim',
     link: '/didim-ozellikleri',
   },
   {
     id: '2',
-    image: '/images/portfolio/project-img-01.png',
+    image: '/images/portfolio/project-img-01.webp',
     title: 'Tarihi Başyapıt: Apollon Tapınağı',
     position: 'Didim',
     link: '/didim-ozellikleri',
   },
   {
     id: '3',
-    image: '/images/portfolio/project-img-04.png',
+    image: '/images/portfolio/project-img-04.webp',
     title: 'Huzurlu Bir Doğa: Ege Rivierası',
     position: 'Didim',
     link: '/didim-ozellikleri',
   },
   {
     id: '4',
-    image: '/images/hero-img/hero-img-03.png',
+    image: '/images/hero-img/hero-img-03.webp',
     title: "Seçkin Eğlence Mekanları",
     position: 'Didim',
     link: '/didim-ozellikleri',

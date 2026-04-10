@@ -10,56 +10,56 @@ const data = [
     title: 'Yapısal Temel ve Kaba İnşaat',
     description:
       'Projenin iskeletinde Batıçim, Entegre ve Knauf gibi sektör devlerinin yüksek mukavemetli çimento ve alçı sistemleri kullanılmıştır. İç ve dış yüzeylerde Kalekim harç teknolojileri ile uzun ömürlü yapı standartları garanti altına alınmıştır.',
-    image: '/images/services-2/service-item-1.png',
+    image: '/images/services-2/service-item-1.webp',
   },
   {
     id: 2,
     title: 'Cephe Mühendisliği ve Yalıtım',
     description:
       'Estetik ve performansın birleştiği dış cephede ASAŞ Natura kompozit paneller ve Boardex plakalar tercih edilmiştir. Isı ve ses konforu için İzocam, Dalmacyalı ve Kayser Styropor mantolama sistemleri ile maksimum enerji verimliliği sağlanmıştır.',
-    image: '/images/services-2/service-item-2.png',
+    image: '/images/services-2/service-item-2.webp',
   },
   {
     id: 3,
     title: 'İklimlendirme ve Konfor (VRF)',
     description:
       "İç mekân hava kalitesi ve ısı dengesi, Samsung'un gizli tesisatlı inverter multi split (VRF) klima sistemleri ile yönetilir. Siemens ankastre setleri (ocak, davlumbaz, buzdolabı, bulaşık makinesi) ile mutfaklarda üst segment bir kullanım deneyimi sunulur.",
-    image: '/images/services-2/service-item-3.png',
+    image: '/images/services-2/service-item-3.webp',
   },
   {
     id: 4,
     title: 'Akıllı Cam ve Doğrama Sistemleri',
     description:
       'Şişecam Isıcam K Serisi (Solar Low-E) temperli camlar ile güneş kontrolü ve ısı yalıtımı en üst seviyeye taşınmıştır. ABC Dış Cephe ve Yavuzlar Alüminyum profilleri, estetik kavisli cam tasarımlarıyla mimari bir imza oluşturur.',
-    image: '/images/services-2/service-item-4.png',
+    image: '/images/services-2/service-item-4.webp',
   },
   {
     id: 5,
     title: 'Islak Hacim ve Vitrifiye Tasarımı',
     description:
       'Banyo ve mutfaklarda Hansgrohe armatürler, Ukinox granit evyeler ve Geberit gömme rezervuar sistemleri kullanılmıştır. Rimfree (kanalsız) klozet teknolojisi ile hijyen ve modern tasarım bir araya getirilmiştir.',
-    image: '/images/services-2/service-item-5.png',
+    image: '/images/services-2/service-item-5.webp',
   },
   {
     id: 6,
     title: 'Altyapı ve Tesisat Güvenliği',
     description:
       "Su ve atık yönetiminde Egeplast, Egeyıldız ve Egep'in yüksek basınca dayanıklı boru sistemleri tercih edilmiştir. Çatı ve teras alanlarında Sim Membran'ın bitümlü su yalıtım çözümleriyle yapı güvenliği tam koruma altına alınmıştır.",
-    image: '/images/services-2/service-item-6.png',
+    image: '/images/services-2/service-item-6.webp',
   },
   {
     id: 7,
     title: 'Elektrik, Otomasyon ve Donanım',
     description:
       'El-Bi Electric anahtar grupları, Uğur Kablo altyapısı ve Philips/Cata aydınlatma bileşenleri ile güvenli bir elektrik mimarisi kurulmuştur. Girişlerde Kale kilit sistemleri, iç mekanlarda ise Pimador ve Sacci gibi nitelikli donanım markaları kullanılmıştır.',
-    image: '/images/services-2/service-item-7.png',
+    image: '/images/services-2/service-item-7.webp',
   },
   {
     id: 8,
     title: 'Güçlendirilmiş Temel Yalıtımı ve Membran Uygulaması',
     description:
       "Projemiz denize 30 metre mesafede olduğu için, su yalıtımı ve temel izolasyonu en üst standartta tutulmuştur. Temel ile betonarme yapı arasında yüksek dayanımlı membran sistemi uygulanarak, zeminden gelebilecek su ve nemin temelle teması kesilmiştir. Bu uygulama, korozyon, rutubet ve su sızıntısı risklerini minimize eder, yapının dayanıklılığını ve daire konforunu artırır.",
-    image: '/images/services-2/yalıtım.png',
+    image: '/images/services-2/yalıtım.webp',
   },
 ]
 

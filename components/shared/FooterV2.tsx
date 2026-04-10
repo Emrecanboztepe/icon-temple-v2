@@ -6,10 +6,9 @@ const FooterV2 = () => {
   return (
     <footer className="w-full overflow-hidden">
       <div
-        className="flex items-end justify-center overflow-hidden bg-backgroundBody dark:bg-secondary"
-        style={{ height: '460px' }}>
+        className="flex h-[180px] items-end justify-center overflow-hidden bg-backgroundBody md:h-[460px] dark:bg-secondary">
         <Image
-          src="/images/footer.png"
+          src="/images/footer.webp"
           alt="Icon Temple Building"
           width={1400}
           height={600}
@@ -24,7 +23,7 @@ const FooterV2 = () => {
             <div className="max-w-[360px] pr-8">
               <div className="mb-6">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo.webp"
                   alt="Icon Temple Logo"
                   width={150}
                   height={60}

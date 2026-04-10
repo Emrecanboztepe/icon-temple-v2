@@ -13,7 +13,7 @@ const HeroV18 = () => {
           id="hero-gradient-wrapper"
           className="h-fw-full absolute top-1/2 -z-10 w-full -translate-y-1/2 scale-75 blur-[90px]">
           <img
-            src="/images/hero-gradient-background.png"
+            src="/images/hero-gradient-background.webp"
             alt="hero-gradient-background"
             id="hero-gradient"
             className="absolute top-1/2 -translate-y-1/2"

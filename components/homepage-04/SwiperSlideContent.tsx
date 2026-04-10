@@ -34,22 +34,22 @@ const SwiperSlideContent: FC<SwiperSlideContentProps> = ({ feedback, name, posit
               target="_blank"
               href="https://www.linkedin.com/company/staticmania"
               className="border p-1.5 duration-300 hover:bg-primary dark:border-dark md:p-3">
-              <img src="/images/home-4/linkedin.png" alt="icon" className="mt-[2px] block dark:hidden" />
-              <img src="/images/home-4/linkedin-dark.png" alt="icon" className="mt-[2px] hidden dark:block" />
+              <img src="/images/home-4/linkedin.webp" alt="icon" className="mt-[2px] block dark:hidden" />
+              <img src="/images/home-4/linkedin-dark.webp" alt="icon" className="mt-[2px] hidden dark:block" />
             </Link>
             <Link
               href="https://x.com/heystaticmania"
               target="_blank"
               className="border p-1.5 duration-300 hover:bg-primary dark:border-dark md:p-3">
-              <img src="/images/home-4/old-twitter.png" alt="icon" className="block dark:hidden" />
-              <img src="/images/home-4/old-twitter-dark.png" alt="icon" className="hidden dark:block" />
+              <img src="/images/home-4/old-twitter.webp" alt="icon" className="block dark:hidden" />
+              <img src="/images/home-4/old-twitter-dark.webp" alt="icon" className="hidden dark:block" />
             </Link>
             <Link
               href="https://www.instagram.com/staticmania_/"
               target="_blank"
               className="border p-1.5 duration-300 hover:bg-primary dark:border-dark md:p-3">
-              <img src="/images/home-4/instragram.png" alt="icon" className="block dark:hidden" />
-              <img src="/images/home-4/instragram-dark.png" alt="icon" className="hidden dark:block" />
+              <img src="/images/home-4/instragram.webp" alt="icon" className="block dark:hidden" />
+              <img src="/images/home-4/instragram-dark.webp" alt="icon" className="hidden dark:block" />
             </Link>
           </div>
         </div>

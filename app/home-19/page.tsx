@@ -40,9 +40,9 @@ const homepage19 = () => {
         Let’s Build
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/14.png' },
-            { id: '2', img: '/images/agent/12.png' },
-            { id: '3', img: '/images/agent/13.png' },
+            { id: '1', img: '/images/agent/14.webp' },
+            { id: '2', img: '/images/agent/12.webp' },
+            { id: '3', img: '/images/agent/13.webp' },
           ]}
         />
         Something

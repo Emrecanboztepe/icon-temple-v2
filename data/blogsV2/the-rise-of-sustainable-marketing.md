@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/homeV3-img-3.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/homeV3-img-3.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Rise of Sustainable Marketing'
 description: 'Explore how sustainability is becoming a key driver of consumer loyalty in 2024.'
 date: 'April 17, 2025'
@@ -25,7 +25,7 @@ To embrace sustainable marketing, brands should:
 2. **Communicate Authentically:** Avoid greenwashing and be transparent about efforts.
 3. **Partner with Sustainable Influencers:** Collaborate with advocates for eco-conscious living.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in sustainable marketing include:
 - **Regulatory Compliance:** Navigating evolving sustainability regulations.
 
 By prioritizing authenticity and innovation, brands can build lasting consumer trust.
+

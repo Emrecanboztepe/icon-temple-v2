@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-7.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-7.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Changing Face of Digital Advertising'
 description: 'Explore how consumer expectations, technologies, and platforms are reshaping digital advertising in 2024.'
 featured: true
@@ -25,7 +25,7 @@ As the landscape shifts, advertisers need to rethink their strategies. Key steps
 2. **Experimenting with Immersive Media:** Use AR/VR to create memorable ad experiences.
 3. **Partnering with Influencers:** Collaborate with creators who align with your brand values for authentic connections.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 It sounds like you’re working on translating research findings into a wireframe. Are you focusing on a specific type of project or platform, like a website, app, or something else? And what kind of research findings are you incorporating?
 
@@ -39,7 +39,7 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing the website with real users
 
@@ -48,3 +48,4 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - User Testing: Gathering feedback from actual users to refine the design, ensuring it meets usability standards.
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
+

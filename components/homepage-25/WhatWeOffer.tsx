@@ -7,7 +7,7 @@ const WhatWeOffer = () => {
       <div className="container">
         <div className="grid grid-cols-12 items-start gap-y-16 lg:gap-x-16">
           <RevealWrapper className="reveal-me col-span-12 lg:col-span-6 lg:h-full">
-            <img src="/images/services/offer-v2.png" alt="expertise" className="h-full w-full" />
+            <img src="/images/services/offer-v2.webp" alt="expertise" className="h-full w-full" />
           </RevealWrapper>
           <RevealWrapper className="col-span-12 space-y-7 lg:col-span-6">
             <div className="space-y-2">

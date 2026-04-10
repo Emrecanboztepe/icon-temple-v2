@@ -1,7 +1,7 @@
 ---
 title: 'Wedding planning'
 description: 'From elegant ceremonies to grand receptions, we make your big day flawless.'
-coverImage: '/images/home-5/our-service-img-1.png'
+coverImage: '/images/home-5/our-service-img-1.webp'
 badge: 'Services details'
 logo: '/images/icons/arrow-Icon.svg'
 logoDark: '/images/home-5/arrow-Icon.svg'
@@ -22,3 +22,4 @@ User Experience (UX) Research: We gather insights on user behavior to inform des
 SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
 
 Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase its top products with style and efficiency. Say goodbye to coding hassles and hello to
+

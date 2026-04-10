@@ -25,9 +25,9 @@ const CareerPage = () => {
         Let's chat!
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/01.jpg' },
-            { id: '2', img: '/images/agent/11.png' },
-            { id: '3', img: '/images/agent/12.png' },
+            { id: '1', img: '/images/agent/01.webp' },
+            { id: '2', img: '/images/agent/11.webp' },
+            { id: '3', img: '/images/agent/12.webp' },
           ]}
         />
         with us.

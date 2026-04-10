@@ -1,7 +1,7 @@
 ---
 title: 'Backend Development'
 description: 'Power your apps and systems with scalable, secure, and high-performance backend infrastructure.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 badgeTitle: 'Backend Engineering'
 feature: ['API Development', 'Database Architecture']
 ---
@@ -27,3 +27,4 @@ We focus on clean code, best practices, and reliable infrastructure. Whether you
 ### Why Choose Us
 
 We write code that lasts. Our backend development process is grounded in clarity, performance, and security. With deep experience across tech stacks and industries, we build the digital engines that power great products.
+

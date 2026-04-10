@@ -1,5 +1,5 @@
 ---
- thumbnail: '/images/home-5/case-study-1.png'
+ thumbnail: '/images/home-5/case-study-1.webp'
  alt: 'Project Img'
  category: 'company'
  title: 'Introducing the first cloud storage solution for web-based'
@@ -18,7 +18,7 @@ Say goodbye to the complexities of web development and hello to simplicity with 
 
 This innovative tool combines creativity with functionality, allowing you to create stunning product displays without the need for coding expertise. With its intuitive user interface and versatile design options, your business can captivate customers and elevate your online presence effortlessly.
 
-![Project images](/images/project-details/project-details-button.png)
+![Project images](/images/project-details/project-details-button.webp)
 
 Designing the User Experience (UX) is a meticulous process that involves understanding user needs, preferences, and behaviors to create intuitive and seamless interactions. Through thoughtful research and analysis, we strive to craft interfaces
 
@@ -30,6 +30,7 @@ Website is perfect for e-commerce businesses, offering tools to easily set up an
 
 Information architecture (IA) is the structural design of digital information environments, such as websites and applications, to facilitate intuitive navigation and efficient access to content. It involves organizing and categorizing information in a logical and hierarchical manner, ensuring that users can easily find what they're looking for. Information architecture considers factors such as user goals, business objectives, and content relationships to create a cohesive and user-friendly
 
-![Project images](/images/services/business-big.png)
+![Project images](/images/services/business-big.webp)
 
 Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
+

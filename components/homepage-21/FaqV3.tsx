@@ -1,6 +1,6 @@
 'use client'
 import faqV3Data from '@/data/faqV3.json'
-import gradientBg from '@/public/images/gradient-bg.png'
+import gradientBg from '@/public/images/gradient-bg.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'

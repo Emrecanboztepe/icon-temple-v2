@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-21.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-21.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Growth of Podcast Advertising'
 description: 'Discover how podcast advertising is becoming a key channel for brands in 2024.'
 date: 'May 22, 2025'
@@ -25,7 +25,7 @@ To succeed in podcast advertising, consider:
 2. **Leverage Host Endorsements:** Use host-read ads for authenticity.
 3. **Track Performance:** Use analytics to measure ad effectiveness.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in podcast advertising include:
 - **Content Fit:** Finding podcasts that align with brand messaging.
 
 By focusing on authenticity and relevance, brands can excel in podcast advertising.
+

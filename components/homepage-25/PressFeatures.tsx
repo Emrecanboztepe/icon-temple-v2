@@ -5,7 +5,7 @@ import TextAppearAnimation from '../animation/TextAppearAnimation'
 const PressFeatures = () => {
   return (
     <section className="overflow-hidden">
-      <div className="relative overflow-hidden bg-[url('/images/agent/press-feature.png')] bg-cover bg-fixed bg-center bg-no-repeat py-40">
+      <div className="relative overflow-hidden bg-[url('/images/agent/press-feature.webp')] bg-cover bg-fixed bg-center bg-no-repeat py-40">
         <div className="absolute inset-0 z-0 bg-[linear-gradient(0deg,rgba(21,21,21,0.9)_0%,rgba(21,21,21,0.9)_100%)]" />
 
         <div className="container relative z-10 text-center">

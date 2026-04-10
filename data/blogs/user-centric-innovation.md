@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-2.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-2.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'User-Centric Innovation: Designing Solutions for Real-World Challenges'
 description: 'Learn how user-focused design can lead to impactful, problem-solving innovations across industries.'
 featured: false
@@ -28,7 +28,7 @@ User-centric design starts with understanding the audience. We achieve this thro
 
 By aligning designs with user needs, we ensure that every interaction feels meaningful.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Testing the Website with Real Users
 
@@ -38,4 +38,5 @@ Real users are at the heart of our innovation process. Testing involves:
 - Gathering feedback to identify areas of confusion or frustration.
 - Iterative improvements based on actionable insights.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
+

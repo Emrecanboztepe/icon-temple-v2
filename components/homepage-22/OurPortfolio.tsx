@@ -5,52 +5,52 @@ import TextAppearAnimation from '../animation/TextAppearAnimation'
 const portfolioImages = [
   {
     id: 1,
-    src: 'images/marquee-img/our-portfolio-01.png',
+    src: 'images/marquee-img/our-portfolio-01.webp',
     alt: 'client Logo',
   },
   {
     id: 2,
-    src: 'images/marquee-img/our-portfolio-02.png',
+    src: 'images/marquee-img/our-portfolio-02.webp',
     alt: 'client Logo',
   },
   {
     id: 3,
-    src: 'images/marquee-img/our-portfolio-03.png',
+    src: 'images/marquee-img/our-portfolio-03.webp',
     alt: 'client Logo',
   },
   {
     id: 4,
-    src: 'images/marquee-img/our-portfolio-04.png',
+    src: 'images/marquee-img/our-portfolio-04.webp',
     alt: 'client Logo',
   },
   {
     id: 5,
-    src: 'images/marquee-img/our-portfolio-05.png',
+    src: 'images/marquee-img/our-portfolio-05.webp',
     alt: 'client Logo',
   },
   {
     id: 6,
-    src: 'images/marquee-img/our-portfolio-06.png',
+    src: 'images/marquee-img/our-portfolio-06.webp',
     alt: 'client Logo',
   },
   {
     id: 7,
-    src: 'images/marquee-img/our-portfolio-07.png',
+    src: 'images/marquee-img/our-portfolio-07.webp',
     alt: 'client Logo',
   },
   {
     id: 8,
-    src: 'images/marquee-img/our-portfolio-08.png',
+    src: 'images/marquee-img/our-portfolio-08.webp',
     alt: 'client Logo',
   },
   {
     id: 9,
-    src: 'images/marquee-img/our-portfolio-09.png',
+    src: 'images/marquee-img/our-portfolio-09.webp',
     alt: 'client Logo',
   },
   {
     id: 10,
-    src: 'images/marquee-img/our-portfolio-10.png',
+    src: 'images/marquee-img/our-portfolio-10.webp',
     alt: 'client Logo',
   },
 ]

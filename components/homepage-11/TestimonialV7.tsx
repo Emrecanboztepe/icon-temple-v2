@@ -9,7 +9,7 @@ const data = [
     reviewText: 'Rivor Films transformed our brand’s message into an unforgettable visual',
     authorName: 'Kristin Watson',
     authorRole: 'CEO, Tech Innovators',
-    authorImage: '/images/home-ai/team/ai-team-1.png',
+    authorImage: '/images/home-ai/team/ai-team-1.webp',
     rating: 5,
   },
   {
@@ -17,7 +17,7 @@ const data = [
     reviewText: 'The team at Rivor Films exceeded our expectations and delivered stunning results.',
     authorName: 'John Doe',
     authorRole: 'Marketing Director, Creative Agency',
-    authorImage: '/images/home-ai/team/ai-team-2.png',
+    authorImage: '/images/home-ai/team/ai-team-2.webp',
     rating: 4,
   },
   {
@@ -25,7 +25,7 @@ const data = [
     reviewText: 'Working with Rivor Films was a game changer for our project.',
     authorName: 'Alice Smith',
     authorRole: 'Creative Director, Design Studio',
-    authorImage: '/images/home-ai/team/ai-team-3.png',
+    authorImage: '/images/home-ai/team/ai-team-3.webp',
     rating: 5,
   },
   {
@@ -33,7 +33,7 @@ const data = [
     reviewText: 'The creativity and professionalism of Rivor Films is unmatched.',
     authorName: 'Bob Johnson',
     authorRole: 'Founder, Startup Inc.',
-    authorImage: '/images/home-ai/team/ai-team-4.png',
+    authorImage: '/images/home-ai/team/ai-team-4.webp',
     rating: 3,
   },
   {
@@ -41,7 +41,7 @@ const data = [
     reviewText: 'The creativity and professionalism of Rivor Films is unmatched.',
     authorName: 'Zaks Johnson',
     authorRole: 'Founder, Startup Inc.',
-    authorImage: '/images/home-ai/team/ai-team-5.png',
+    authorImage: '/images/home-ai/team/ai-team-5.webp',
     rating: 4,
   },
 ]

@@ -1,6 +1,6 @@
 ---
- image: '/images/project-3/case-studies-3.png'
- thumbnail: '/images/project-3/case-studies-3.png'
+ image: '/images/project-3/case-studies-3.webp'
+ thumbnail: '/images/project-3/case-studies-3.webp'
  alt: 'Recorder organic viewers'
  category: 'Adventure'
  title: 'Recorder organic viewers'
@@ -23,7 +23,7 @@ Web provides a perfect blend of creative freedom and functionality. Users can le
 
 Web’s dynamic CMS sets it apart. Unlike static site builders, it empowers users to create and manage content dynamically, whether it’s a portfolio, an e-commerce store, or a blog. This ensures that sites stay fresh and engaging without requiring extensive development resources.
 
-![Project images](/images/project-details/project-details-2-banner.png)
+![Project images](/images/project-details/project-details-2-banner.webp)
 
 ### Who Is Website Designed For?
 
@@ -32,3 +32,4 @@ Website caters to a diverse audience, offering a range of features to suit diffe
 ### E-commerce Stores
 
 Website is perfect for e-commerce businesses, offering tools to easily set up and manage online stores. With integrated features for product listings, payment options, and order management, businesses can create a seamless shopping experience without needing complex coding or third-party plugins.
+

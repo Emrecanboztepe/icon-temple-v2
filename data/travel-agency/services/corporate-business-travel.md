@@ -1,5 +1,5 @@
 ---
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 title: 'Corporate & Business travel'
 description: 'Transform customer experiences with smart voice technology.'
 lightLogo: '/images/home-12/services/service-img-04.svg'
@@ -22,3 +22,4 @@ User Experience (UX) Research: We gather insights on user behavior to inform des
 SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
 
 Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+

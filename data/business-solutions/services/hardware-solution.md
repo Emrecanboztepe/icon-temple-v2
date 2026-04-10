@@ -1,8 +1,8 @@
 ---
 title: '  Hardware Solution'
 description: 'Ensuring an exceptional user journey'
-hoverImage: '/images/services/services-background-02.png'
-coverImage: '/images/services/services-background-02.png'
+hoverImage: '/images/services/services-background-02.webp'
+coverImage: '/images/services/services-background-02.webp'
 badge: 'Services details'
 ---
 
@@ -23,3 +23,4 @@ User Experience (UX) Research: We gather insights on user behavior to inform des
 SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
 
 Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+

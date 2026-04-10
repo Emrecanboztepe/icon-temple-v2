@@ -18,7 +18,7 @@ const PricingV5 = () => {
         </div>
         <RevealWrapper className="reveal-me mt-10 grid justify-center gap-x-10 gap-y-10 md:mt-20 lg:grid-cols-2">
           <div className="relative border border-secondary px-[30px] pb-[30px] pt-8 dark:border-backgroundBody md:pt-20">
-            <img src="/images/pricing-gradient-bg-1.png" className="absolute left-0 top-0" alt="Gradient color" />
+            <img src="/images/pricing-gradient-bg-1.webp" className="absolute left-0 top-0" alt="Gradient color" />
             <div>
               <div>
                 <h6 className="mb-4 max-md:text-3xl">Gold plan</h6>
@@ -250,7 +250,7 @@ const PricingV5 = () => {
             </div>
           </div>
           <div className="relative border px-[30px] pb-[30px] pt-8 dark:border-dark md:pt-20">
-            <img src="/images/pricing-gradient-bg-2.png" className="absolute left-0 top-0" alt="Gradient color" />
+            <img src="/images/pricing-gradient-bg-2.webp" className="absolute left-0 top-0" alt="Gradient color" />
             <div>
               <div>
                 <h6 className="mb-4 max-md:text-3xl">Star plan</h6>

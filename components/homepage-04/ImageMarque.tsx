@@ -8,7 +8,7 @@ const ImageMarque = () => {
         <Marquee pauseOnHover speed={40} autoFill>
           <div className="flex items-end gap-3 first:mr-3">
             <figure className="group relative min-w-56 md:min-w-[362px]">
-              <img src="/images/home-4/marquee-01.png" alt=" 1" className="w-full" />
+              <img src="/images/home-4/marquee-01.webp" alt=" 1" className="w-full" />
 
               <a
                 href="https://www.instagram.com/staticmania_/"
@@ -37,7 +37,7 @@ const ImageMarque = () => {
               </a>
             </figure>
             <figure className="group relative min-w-56 md:min-w-[362px]">
-              <img src="/images/home-4/marquee-02.png" alt=" 2" className="w-full" />
+              <img src="/images/home-4/marquee-02.webp" alt=" 2" className="w-full" />
               <a
                 href="https://www.instagram.com/staticmania_/"
                 target="_blank"
@@ -65,7 +65,7 @@ const ImageMarque = () => {
               </a>
             </figure>
             <figure className="group relative min-w-56 md:min-w-[362px]">
-              <img src="/images/home-4/marquee-03.png" alt=" 3" className="w-full" />
+              <img src="/images/home-4/marquee-03.webp" alt=" 3" className="w-full" />
               <a
                 href="https://www.instagram.com/staticmania_/"
                 target="_blank"
@@ -93,7 +93,7 @@ const ImageMarque = () => {
               </a>
             </figure>
             <figure className="group relative min-w-56 md:min-w-[362px]">
-              <img src="/images/home-4/marquee-04.png" alt=" 4" className="w-full" />
+              <img src="/images/home-4/marquee-04.webp" alt=" 4" className="w-full" />
               <a
                 href="https://www.instagram.com/staticmania_/"
                 target="_blank"

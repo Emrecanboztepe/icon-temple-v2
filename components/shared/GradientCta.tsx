@@ -1,4 +1,4 @@
-import gradientBg from '@/public/images/gradient-bg.png'
+import gradientBg from '@/public/images/gradient-bg.webp'
 import Image from 'next/image'
 import CtaImageSlider from './CtaImageSlider'
 
@@ -29,9 +29,9 @@ const GradientCta = () => {
             Let's chat!
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/01.jpg' },
-                { id: '2', img: '/images/agent/02.jpg' },
-                { id: '3', img: '/images/agent/03.jpg' },
+                { id: '1', img: '/images/agent/01.webp' },
+                { id: '2', img: '/images/agent/02.webp' },
+                { id: '3', img: '/images/agent/03.webp' },
               ]}
             />
             with us.

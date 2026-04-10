@@ -1,5 +1,5 @@
 ---
-thumbnail: '/images/home-5/case-study-2.png'
+thumbnail: '/images/home-5/case-study-2.webp'
 alt: 'Project Img'
 category: 'company'
 title: 'How AI is redefining finance and banking'
@@ -18,7 +18,7 @@ Simplify the process of creating impactful online stores with the 'Best Sellers 
 
 By blending creative design with functional versatility, this platform offers an intuitive interface to enhance customer engagement. With its seamless navigation and flexible customization options, the 'Best Sellers No-Code Website' helps businesses leave a lasting impression on their audience.
 
-![Project images](/images/project-details/project-details-button.png)
+![Project images](/images/project-details/project-details-button.webp)
 
 Creating a seamless User Experience (UX) involves focusing on the needs and behaviors of users to design intuitive interactions. Through extensive research and thoughtful design, we ensure interfaces that not only meet expectations but exceed them. This section explores our approach to crafting UX designs, emphasizing methodologies, techniques, and best practices for creating user-friendly experiences.
 
@@ -28,6 +28,7 @@ This platform is ideal for e-commerce businesses, offering everything needed to 
 
 Information Architecture (IA) ensures that digital environments are organized logically and navigable efficiently. By structuring content hierarchically and considering user goals and business needs, IA creates intuitive pathways for users to access information quickly.
 
-![Project images](/images/services/business-big.png)
+![Project images](/images/services/business-big.webp)
 
 Techniques like card sorting and site mapping help to develop clear navigation systems, guiding users effortlessly through interfaces. By prioritizing effective IA, we lay the groundwork for a positive user experience, enabling users to explore complex content landscapes with clarity and confidence.
+

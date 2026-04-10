@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blogV2-img-3.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blogV2-img-3.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'Reimagining Digital Creativity'
 description: 'Dive into the art of blending creativity with technology to deliver unforgettable digital experiences.'
 featured: false
@@ -28,7 +28,7 @@ A remarkable user experience begins with a strong foundation of research and emp
 
 Incorporating user feedback into every step ensures that our designs remain relevant, relatable, and resonant.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Building the Information Architecture
 
@@ -38,7 +38,7 @@ To provide structure to the creative chaos, we focus on organizing content in wa
 - Creating content hierarchies that guide user focus and intent.
 - Testing wireframes and prototypes to validate design assumptions.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing Designs with Real Users
 
@@ -49,3 +49,4 @@ Testing is the heart of any successful project. Through iterative testing cycles
 - Emotional feedback to measure delight and satisfaction.
 
 Our rigorous testing ensures that the final product not only meets but exceeds user expectations.
+

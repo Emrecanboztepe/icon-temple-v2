@@ -1,7 +1,7 @@
 ---
 title: 'Chatbot Integration'
 description: 'Automate customer interactions and support with intelligent chatbot solutions for your platforms.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 badgeTitle: 'AI Chatbots'
 feature: ['Customer Support Bots', 'AI & NLP Integration']
 ---
@@ -27,3 +27,4 @@ Chatbots are no longer just a trend — they’re a necessity. We make it easy t
 ### Why Choose Us
 
 We combine design thinking, AI know-how, and seamless development to build chatbots that do more than respond — they serve. Our chatbot services help reduce support costs, improve engagement, and increase conversions across your digital touchpoints.
+

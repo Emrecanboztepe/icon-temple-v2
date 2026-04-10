@@ -1,8 +1,8 @@
 ---
 title: 'Link Building'
 description: 'Acquiring high-quality backlinks to enhance website authority and improve SEO performance.'
-thumbnail: '/images/home-5/seo-service-2.png'
-coverImage: '/images/home-5/seo-service-2.png'
+thumbnail: '/images/home-5/seo-service-2.webp'
+coverImage: '/images/home-5/seo-service-2.webp'
 serialNumber: 2
 ---
 
@@ -18,7 +18,7 @@ Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly 
 
 Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
 
-![Project images](/images/project-details/project-details-button.png)
+![Project images](/images/project-details/project-details-button.webp)
 
 Designing the User Experience (UX) is a meticulous process that involves understanding user needs, preferences, and behaviors to create intuitive and seamless interactions. Through thoughtful research and analysis, we strive to craft interfaces
 
@@ -30,6 +30,7 @@ Information architecture (IA) is the structural design of digital information en
 
 structure. Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
 
-![Project images](/images/services/business-big.png)
+![Project images](/images/services/business-big.webp)
 
 Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
+

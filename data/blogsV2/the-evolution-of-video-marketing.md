@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-2.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-2.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Evolution of Video Marketing'
 description: 'Discover how video marketing is evolving to meet consumer demands in 2024.'
 date: 'May 1, 2025'
@@ -25,7 +25,7 @@ To excel in video marketing, brands should:
 2. **Leverage AI Tools:** Use AI for video editing and personalization.
 3. **Focus on Storytelling:** Create compelling narratives to engage audiences.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in video marketing include:
 - **Content Saturation:** Standing out in a crowded video landscape.
 
 By embracing creativity and innovation, brands can thrive in video marketing.
+

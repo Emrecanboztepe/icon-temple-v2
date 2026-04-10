@@ -32,7 +32,7 @@ const AwardsV3 = () => {
           </TextAppearAnimation>
         </div>
         <figure onClick={() => setOpen(true)}>
-          <img src="/images/home-5/awards-feature-img.png" alt="awards" className="w-full cursor-pause" />
+          <img src="/images/home-5/awards-feature-img.webp" alt="awards" className="w-full cursor-pause" />
         </figure>
       </div>
       <VideoModal open={open} setOpen={setOpen}></VideoModal>

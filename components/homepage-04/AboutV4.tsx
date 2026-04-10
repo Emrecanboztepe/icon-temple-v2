@@ -1,5 +1,5 @@
 import CounterList from '@/data/counterData.json'
-import aboutImg from '@/public/images/portfolio/about-banner.png'
+import aboutImg from '@/public/images/portfolio/about-banner.webp'
 import CounterAnimation from '@/utils/CounterAnimation'
 import Image from 'next/image'
 import Link from 'next/link'

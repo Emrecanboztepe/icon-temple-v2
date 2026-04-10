@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blogV2-img-1.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blogV2-img-1.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Future of AI in Digital Design'
 description: 'Explore how artificial intelligence is transforming design processes and shaping the future of creativity.'
 featured: false
@@ -42,11 +42,11 @@ To integrate AI into the design process:
 2. Automate workflows to save time.
 3. Experiment with generative design for unique results.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 AI is revolutionizing the design industry by automating repetitive tasks, generating assets, and providing deeper insights. This project focuses on leveraging AI tools to enhance creativity and efficiency.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Building the information architecture
 
@@ -62,7 +62,7 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing the website with real users
 
@@ -71,3 +71,4 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - User Testing: Gathering feedback from actual users to refine the design, ensuring it meets usability standards.
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
+

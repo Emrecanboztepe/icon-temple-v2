@@ -88,7 +88,7 @@ const WhyChooseUsV8 = () => {
 
           <RevealWrapper as="figure" className="reveal-me md:w-1/2">
             <Image
-              src="/images/home-5/why-rivor-v3.png"
+              src="/images/home-5/why-rivor-v3.webp"
               alt="Why Choose Rivor"
               width={600}
               height={700}

@@ -17,14 +17,15 @@ const HeroV7 = () => {
           </h3>
           <h1 className="text-center font-normal lg:text-left xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">
             Icon Temple Residence
+            <br />
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/huzurun.jpg' },
-                { id: '2', img: '/images/agent/nesenin.jpg' },
-                { id: '3', img: '/images/agent/umut.jpg' },
-                { id: '4', img: '/images/agent/sevgi.jpg' },
-                { id: '5', img: '/images/agent/ses.jpg' },
-                { id: '6', img: '/images/agent/hayal.jpg' },
+                { id: '1', img: '/images/agent/huzurun.webp' },
+                { id: '2', img: '/images/agent/nesenin.webp' },
+                { id: '3', img: '/images/agent/umut.webp' },
+                { id: '4', img: '/images/agent/sevgi.webp' },
+                { id: '5', img: '/images/agent/ses.webp' },
+                { id: '6', img: '/images/agent/hayal.webp' },
               ]}
             />
             Ritüelin

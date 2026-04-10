@@ -1,7 +1,7 @@
 'use client'
 import { data } from '@/data/logo/logo'
 import useScrollingMarquee from '@/hooks/useScrollingMarquee'
-import gradientBg from '@/public/images/gradient-bg.png'
+import gradientBg from '@/public/images/gradient-bg.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'

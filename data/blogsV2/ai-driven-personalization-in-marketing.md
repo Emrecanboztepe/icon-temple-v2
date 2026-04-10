@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/homeV3-img-1.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/homeV3-img-1.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'Top 10 hidden destinations'
 description: 'Discover how AI is revolutionizing personalized marketing strategies in 2024.'
 date: 'April 3, 2025'
@@ -25,7 +25,7 @@ To leverage AI-driven personalization, marketers should:
 2. **Focus on Data Quality:** Ensure clean, accurate data for effective AI analysis.
 3. **Test and Optimize:** Continuously refine AI models for better personalization.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in AI-driven personalization include:
 - **Implementation Costs:** Managing the expense of AI tools and infrastructure.
 
 By addressing these challenges, businesses can unlock the full potential of AI-driven marketing.
+

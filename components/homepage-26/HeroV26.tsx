@@ -19,18 +19,17 @@ const HeroV26: FC<HeroV26Props> = ({ description }) => {
       <RevealWrapper className="mx-auto max-w-screen-xl px-5">
         <div>
           <h3 className="text-center lg:text-left">
-            Her Güne<br className="lg:hidden" /> Tatil Enerjisiyle Başlayın
+            Her Güne <br className="lg:hidden" />  Tatil Enerjisiyle Başlayın
           </h3>
           <h1 className="text-center font-normal lg:text-left xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">
             Icon Temple Residence
+            <br />
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/huzurun.jpg' },
-                { id: '2', img: '/images/agent/nesenin.jpg' },
-                { id: '3', img: '/images/agent/umut.jpg' },
-                { id: '4', img: '/images/agent/sevgi.jpg' },
-                { id: '5', img: '/images/agent/ses.jpg' },
-                { id: '6', img: '/images/agent/hayal.jpg' },
+                { id: '1', img: '/images/agent/yasam.webp' },
+                { id: '2', img: '/images/agent/keyif.webp' },
+                { id: '3', img: '/images/agent/ozgurluk.webp' },
+                { id: '4', img: '/images/agent/didim.webp' },
               ]}
             />
             Ritüelin

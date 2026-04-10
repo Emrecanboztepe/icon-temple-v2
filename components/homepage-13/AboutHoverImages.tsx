@@ -29,13 +29,13 @@ const AboutHoverImages = () => {
     <div className="container pt-14 md:pt-28" ref={galleryRef}>
       <RevealWrapperV2 className="flex items-start justify-center overflow-hidden max-lg:flex-wrap max-lg:gap-y-5 md:space-x-5">
         <figure className="about-image about-active-image h-[450px] cursor-pointer lg:min-h-[660px]">
-          <img src="/images/hero-img/about-hero-1.png" alt="About Hero 1" className="h-full w-full object-cover" />
+          <img src="/images/hero-img/about-hero-1.webp" alt="About Hero 1" className="h-full w-full object-cover" />
         </figure>
         <figure className="about-image h-[450px] cursor-pointer lg:min-h-[660px]">
-          <img src="/images/hero-img/about-hero-2.png" alt="About Hero 2" className="h-full w-full object-cover" />
+          <img src="/images/hero-img/about-hero-2.webp" alt="About Hero 2" className="h-full w-full object-cover" />
         </figure>
         <figure className="about-image h-[450px] cursor-pointer lg:min-h-[660px]">
-          <img src="/images/hero-img/about-hero-3.png" alt="About Hero 3" className="h-full w-full object-cover" />
+          <img src="/images/hero-img/about-hero-3.webp" alt="About Hero 3" className="h-full w-full object-cover" />
         </figure>
       </RevealWrapperV2>
     </div>

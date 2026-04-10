@@ -1,4 +1,4 @@
-import pricingBg from '@/public/images/pricing-gradient.png'
+import pricingBg from '@/public/images/pricing-gradient.webp'
 import { StaticImageData } from 'next/image'
 import Link from 'next/link'
 import React from 'react'

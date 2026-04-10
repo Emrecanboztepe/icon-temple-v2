@@ -30,9 +30,9 @@ const page = () => {
         Let’s
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/07.png' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/06.png' },
+            { id: '1', img: '/images/agent/07.webp' },
+            { id: '2', img: '/images/agent/02.webp' },
+            { id: '3', img: '/images/agent/06.webp' },
           ]}
         />
         Create

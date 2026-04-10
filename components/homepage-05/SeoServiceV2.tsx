@@ -32,7 +32,7 @@ const SeoServiceV2 = () => {
             </div>
           </div>
           <figure className="md:w-1/2">
-            <img src="/images/home-5/seo-feature.png" alt="Marketing professional" className="h-full w-full" />
+            <img src="/images/home-5/seo-feature.webp" alt="Marketing professional" className="h-full w-full" />
           </figure>
         </div>
       </div>

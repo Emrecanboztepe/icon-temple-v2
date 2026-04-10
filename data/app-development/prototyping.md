@@ -1,7 +1,7 @@
 ---
 title: 'Prototyping'
 description: 'Transform ideas into interactive prototypes that clarify, communicate, and validate your product vision.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 badgeTitle: 'UX Prototyping'
 feature: ['Clickable Prototypes', 'High-Fidelity Designs']
 ---
@@ -27,3 +27,4 @@ Whether you’re building a mobile app, a SaaS product, or an internal tool, we 
 ### Why Choose Us
 
 Our prototyping process is fast, flexible, and user-centered. With a focus on clarity and iteration, we help you avoid costly design mistakes and get stakeholder buy-in early — saving time and money while building a better product.
+

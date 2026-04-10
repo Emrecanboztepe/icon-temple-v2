@@ -1,5 +1,5 @@
 'use client'
-import gradientBg from '@/public/images/services-gradient-bg-2.png'
+import gradientBg from '@/public/images/services-gradient-bg-2.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'

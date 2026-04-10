@@ -9,7 +9,7 @@ const HeroV24 = () => {
       aria-labelledby="hero-heading">
       <div id="hero-gradient-wrapper" className="absolute left-0 top-0 -z-10 blur-[65px]" aria-hidden="true">
         <img
-          src="/images/hero-gradient-background.png"
+          src="/images/hero-gradient-background.webp"
           alt="hero"
           id="hero-gradient"
           className="left-0 top-0"
@@ -48,7 +48,7 @@ const HeroV24 = () => {
         <div className="flex w-full flex-1 flex-col gap-5 md:flex-row" aria-label="Business consulting imagery">
           <figure>
             <img
-              src="/images/hero-img/business-hero-1.png"
+              src="/images/hero-img/business-hero-1.webp"
               alt="Business professionals in a consultation meeting"
               className="h-auto w-full object-cover md:h-[540px] md:w-[410px]"
               width={410}
@@ -57,7 +57,7 @@ const HeroV24 = () => {
           </figure>
           <figure>
             <img
-              src="/images/hero-img/business-hero-2.png"
+              src="/images/hero-img/business-hero-2.webp"
               alt="Business growth and strategy visualization"
               className="h-auto w-full object-cover md:h-[540px] md:w-[410px]"
               width={410}

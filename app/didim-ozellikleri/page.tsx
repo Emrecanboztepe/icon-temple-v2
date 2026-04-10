@@ -24,9 +24,9 @@ const page = () => {
         Yeni
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/yasami.jpg' },
-            { id: '2', img: '/images/agent/anı.jpg' },
-            { id: '3', img: '/images/agent/konfor.jpg' },
+            { id: '1', img: '/images/agent/yasami.webp' },
+            { id: '2', img: '/images/agent/anı.webp' },
+            { id: '3', img: '/images/agent/konfor.webp' },
           ]}
         />
         birlikte planlayalım.

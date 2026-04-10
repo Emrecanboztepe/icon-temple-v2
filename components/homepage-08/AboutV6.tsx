@@ -20,7 +20,7 @@ const AboutV6 = () => {
           </TextAppearAnimation>
           <div className="mb-20 mt-8 flex flex-col items-center justify-between gap-y-5 md:mb-28 md:mt-16 md:flex-row md:gap-x-20">
             <RevealWrapper as="figure" className="w-full md:h-[305px] md:w-96">
-              <img src="/images/home-3/about-banner.png" alt="about-banner" className="w-full" />
+              <img src="/images/home-3/about-banner.webp" alt="about-banner" className="w-full" />
             </RevealWrapper>
             <figcaption>
               <RevealWrapper as="p" className="max-w-xl">

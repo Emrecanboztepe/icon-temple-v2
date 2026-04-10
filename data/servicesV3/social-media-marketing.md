@@ -1,7 +1,7 @@
 ---
 title: 'Social media marketing'
 description: 'Expand your digital footprint by building a strong brand presence across social platforms and connecting authentically with your audience.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 logo: '/images/icons/services-icon/service-icon-3.svg'
 logoDark: '/images/icons/services-icon/service-icon-dark-3.svg'
 badgeTitle: 'Social Media'
@@ -26,3 +26,4 @@ Copywriting and Design: Our creative team ensures your emails look great on all 
 Performance Tracking: We monitor key KPIs like open rates, click-throughs, and conversions, and make continuous improvements based on real-time data.
 
 Compliance and Deliverability: We follow best practices to ensure your emails land in inboxes, not spam folders, and comply with GDPR and CAN-SPAM regulations.
+

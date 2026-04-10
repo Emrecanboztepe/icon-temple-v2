@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-1.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-1.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'Web Design Trends That Will Dominate 2024'
 description: 'Explore the top web design trends for 2024 and how they are shaping the future of online experiences.'
 featured: false
@@ -37,7 +37,7 @@ New trends demand optimized information architecture. We focus on:
 - **AI-Assisted Layouts:** Using algorithms to test and refine architecture.
 - **Mobile-First Hierarchies:** Optimizing navigation for smaller screens.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Testing Trends with Real Users
 
@@ -49,4 +49,5 @@ Before adopting trends, thorough testing is essential. We recommend:
 
 Through iterative processes, 2024’s trends can elevate web design to new heights.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
+

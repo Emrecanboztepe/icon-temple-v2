@@ -1,4 +1,4 @@
-import gradientBg from '@/public/images/gradient-bg.png'
+import gradientBg from '@/public/images/gradient-bg.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
@@ -10,28 +10,28 @@ const services = [
     title: 'Discovery',
     description:
       'We start every new client interaction with an in-depth discovery call where we get to know each other, discuss your current and future objectives, and recommend the best course of action.',
-    imgSrc: '/path-to-discovery-image.png',
+    imgSrc: '/path-to-discovery-image.webp',
   },
   {
     id: 2,
     title: 'Strategy',
     description:
       "Every end-to-end project of ours begins with a bespoke pre-build strategy. From brand ID consultation to in-depth code reviews we're here to set the stage for success.",
-    imgSrc: '/path-to-strategy-image.png',
+    imgSrc: '/path-to-strategy-image.webp',
   },
   {
     id: 3,
     title: 'Build',
     description:
       "Whether we've just finished designing your new site or you're handing off finished designs for us to develop in Webflow, we're here to apply our trusted development process to your project.",
-    imgSrc: '/path-to-build-image.png',
+    imgSrc: '/path-to-build-image.webp',
   },
   {
     id: 4,
     title: 'Design',
     description:
       'What kind of design are you interested in? It could be anything from graphic design to interior design or even designing a new product. Let me know what you have in mind!',
-    imgSrc: '/path-to-design-image.png',
+    imgSrc: '/path-to-design-image.webp',
   },
 ]
 

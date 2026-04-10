@@ -7,10 +7,10 @@ const Didim = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false)
 
   const images = [
-    { id: 1, src: '/images/portfolio/project-img-01.png', alt: 'Didim 1' },
-    { id: 2, src: '/images/portfolio/project-img-02.png', alt: 'Didim 2' },
-    { id: 3, src: '/images/portfolio/project-img-03.png', alt: 'Didim 3' },
-    { id: 4, src: '/images/portfolio/project-img-04.png', alt: 'Didim 4' },
+    { id: 1, src: '/images/portfolio/project-img-01.webp', alt: 'Didim 1' },
+    { id: 2, src: '/images/portfolio/project-img-02.webp', alt: 'Didim 2' },
+    { id: 3, src: '/images/portfolio/project-img-03.webp', alt: 'Didim 3' },
+    { id: 4, src: '/images/portfolio/project-img-04.webp', alt: 'Didim 4' },
   ]
 
   return (
@@ -44,7 +44,7 @@ const Didim = () => {
               className="group relative cursor-pointer overflow-hidden rounded-lg"
               onClick={() => setIsVideoOpen(true)}>
               <img
-                src="/images/hero-img/video-thumbnail.png"
+                src="/images/hero-img/video-thumbnail.webp"
                 alt="Video Thumbnail"
                 className="h-[500px] w-[700px] object-cover"
               />
@@ -82,7 +82,7 @@ const Didim = () => {
                 className="group relative cursor-pointer overflow-hidden rounded-lg"
                 onClick={() => setIsVideoOpen(true)}>
                 <img
-                  src="/images/hero-img/video-thumbnail.png"
+                  src="/images/hero-img/video-thumbnail.webp"
                   alt="Video Thumbnail"
                   className="h-[300px] w-[400px] object-cover md:h-[400px] md:w-[550px]"
                 />

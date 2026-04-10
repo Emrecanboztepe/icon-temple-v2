@@ -1,5 +1,5 @@
 'use client'
-import homeV3HeroImg from '@/public/images/homeV3-hero.png'
+import homeV3HeroImg from '@/public/images/homeV3-hero.webp'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'

@@ -1,7 +1,7 @@
 ---
 title: 'Development'
 description: 'Which aspects of UI/UX design are you targeting? Consider:'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 badge: 'Services details'
 feature: ['User interface design (e.g., layouts, colors, typography)
 ',
@@ -25,3 +25,4 @@ User Experience (UX) Research: We gather insights on user behavior to inform des
 SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
 
 Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+

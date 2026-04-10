@@ -55,7 +55,7 @@ const Daire: FC<DaireProps> = ({
           <RevealWrapper className="order-1 md:order-2">
             <figure className="relative">
               <img
-                src="/images/hero-img/about-hero-1.png"
+                src="/images/hero-img/about-hero-1.webp"
                 alt="Daire Plan"
                 className="h-auto w-full rounded-lg shadow-lg"
               />

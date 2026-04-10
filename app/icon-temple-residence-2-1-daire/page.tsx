@@ -1,5 +1,5 @@
 import Didim from '@/components/homepage-26/Didim'
-import HeroV26 from '@/components/homepage-26/HeroV26'
+import HeroV27 from '@/components/homepage-26/HeroV27'
 import Daire from '@/components/homepage-26/Daire'
 import WhyChooseUsV3 from '@/components/homepage-14/WhyChooseUsV3'
 import Clients from '@/components/homepage-03/Clients'
@@ -17,7 +17,7 @@ export const metadata = {
 const IconTempleResidence21Daire = () => {
   return (
     <LayoutOne>
-      <HeroV26 description="Sadece bir ev değil, denizin kokusunu içinize çekerken sevdiklerinizle büyüteceğiniz yepyeni bir yaşam ritüeli. Genişletilmiş iç mekanları, üst düzey akıllı donanımları ve zarif mimarisiyle 2+1 dairelerimiz; hikayesini Ege'nin huzuruyla yeniden yazmak ve kendine ait sıcak bir dünya kurmak isteyenlere eşsiz bir hissiyat vadediyor." />
+      <HeroV27 description="Sadece bir ev değil, denizin kokusunu içinize çekerken sevdiklerinizle büyüteceğiniz yepyeni bir yaşam ritüeli. Genişletilmiş iç mekanları, üst düzey akıllı donanımları ve zarif mimarisiyle 2+1 dairelerimiz; hikayesini Ege'nin huzuruyla yeniden yazmak ve kendine ait sıcak bir dünya kurmak isteyenlere eşsiz bir hissiyat vadediyor." />
       <VideoV2 />
       <AboutV15
         title="Turizmdeki 35 yılı aşkın kusursuz konaklama anlayışımızı, sizlere kalıcı bir tatil deneyimi sunmak için Icon Temple’a aktardık. "
@@ -57,9 +57,9 @@ const IconTempleResidence21Daire = () => {
         Yeni
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/yasami.jpg' },
-            { id: '2', img: '/images/agent/anı.jpg' },
-            { id: '3', img: '/images/agent/konfor.jpg' },
+            { id: '1', img: '/images/agent/yasami.webp' },
+            { id: '2', img: '/images/agent/anı.webp' },
+            { id: '3', img: '/images/agent/konfor.webp' },
           ]}
         />
         birlikte planlayalım.

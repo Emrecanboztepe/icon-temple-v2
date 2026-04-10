@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-4.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-4.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Future of Email Marketing'
 description: 'Explore how email marketing is evolving to meet modern consumer expectations in 2024.'
 date: 'May 29, 2025'
@@ -26,7 +26,7 @@ To excel in email marketing, brands should:
 2. **Focus on Design:** Create visually appealing, mobile-friendly emails.
 3. **Test and Optimize:** Continuously refine email content and timing.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -37,3 +37,4 @@ Challenges in email marketing include:
 - **Data Privacy:** Complying with regulations like GDPR.
 
 By embracing innovation, brands can keep email marketing effective and relevant.
+

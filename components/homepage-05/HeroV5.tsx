@@ -40,9 +40,9 @@ const HeroV5 = () => {
             </figure>
 
             <div className="my-3 flex [&>*:not(:first-child)]:-ml-4">
-              <img src="/images/home-5/review-1.png" alt="User" className="size-[52px]" />
-              <img src="/images/home-5/review-2.png" alt="User" className="size-[52px]" />
-              <img src="/images/home-5/review-3.png" alt="User" className="size-[52px]" />
+              <img src="/images/home-5/review-1.webp" alt="User" className="size-[52px]" />
+              <img src="/images/home-5/review-2.webp" alt="User" className="size-[52px]" />
+              <img src="/images/home-5/review-3.webp" alt="User" className="size-[52px]" />
               <Link
                 href="#"
                 className="group relative size-[52px] cursor-pointer rounded-full border-[1.9px] border-backgroundBody bg-secondary p-4 dark:bg-backgroundBody">
@@ -90,7 +90,7 @@ const HeroV5 = () => {
           </ul>
         </div>
         <figure>
-          <img src="/images/home-5/hero-img.png" alt="Hero" />
+          <img src="/images/home-5/hero-img.webp" alt="Hero" />
         </figure>
       </RevealWrapper>
     </section>

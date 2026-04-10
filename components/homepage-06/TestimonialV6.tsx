@@ -25,7 +25,7 @@ const data: ITestimonial[] = [
     date: '03 Feb, 2024',
     name: 'Leslie Alexander',
     position: 'Product Designer',
-    avatar: '/images/avatar/review-1.png',
+    avatar: '/images/avatar/review-1.webp',
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const data: ITestimonial[] = [
     date: '15 Mar, 2024',
     name: 'Jane Cooper',
     position: 'Marketing Specialist',
-    avatar: '/images/avatar/review-2.png',
+    avatar: '/images/avatar/review-2.webp',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const data: ITestimonial[] = [
     date: '28 Apr, 2024',
     name: 'Robert Fox',
     position: 'Business Owner',
-    avatar: '/images/avatar/review-3.png',
+    avatar: '/images/avatar/review-3.webp',
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const data: ITestimonial[] = [
     date: '10 May, 2024',
     name: 'Emily Davis',
     position: 'UX Designer',
-    avatar: '/images/avatar/review-4.png',
+    avatar: '/images/avatar/review-4.webp',
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const data: ITestimonial[] = [
     date: '03 Feb, 2024',
     name: 'Leslie Alexander',
     position: 'Product Designer',
-    avatar: '/images/avatar/review-5.png',
+    avatar: '/images/avatar/review-5.webp',
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const data: ITestimonial[] = [
     date: '15 Mar, 2024',
     name: 'Jane Cooper',
     position: 'Marketing Specialist',
-    avatar: '/images/avatar/review-6.png',
+    avatar: '/images/avatar/review-6.webp',
   },
 ]
 

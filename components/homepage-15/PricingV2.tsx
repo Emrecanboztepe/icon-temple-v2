@@ -132,7 +132,7 @@ const PricingV2 = () => {
         </RevealWrapper>
 
         <RevealWrapper className="relative min-h-[510px] min-w-[416px] border bg-backgroundBody px-[30px] pt-[30px] dark:border-dark dark:bg-dark">
-          <div className="absolute inset-0 h-full w-full bg-[url('/images/pricing-gradient.png')] bg-no-repeat" />
+          <div className="absolute inset-0 h-full w-full bg-[url('/images/pricing-gradient.webp')] bg-no-repeat" />
           <div className="relative mb-3 flex justify-end">
             <div className="rv-badge">
               <span className="rv-badge-text">Growth Package</span>

@@ -20,7 +20,7 @@ const data: AwardItem[] = [
     title: 'Best cinematography',
     award: 'Global film Awards',
     category: 'Film Awards',
-    img: '/images/portfolio/portfolio-list-hover-img-01.png',
+    img: '/images/portfolio/portfolio-list-hover-img-01.webp',
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const data: AwardItem[] = [
     title: 'Best visual effects',
     award: 'International film festival',
     category: 'International',
-    img: '/images/portfolio/portfolio-list-hover-img-02.png',
+    img: '/images/portfolio/portfolio-list-hover-img-02.webp',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const data: AwardItem[] = [
     title: 'Top production',
     award: 'Brand creators Awards',
     category: 'Commercial',
-    img: '/images/portfolio/portfolio-list-hover-img-03.png',
+    img: '/images/portfolio/portfolio-list-hover-img-03.webp',
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const data: AwardItem[] = [
     title: '1 Award winning',
     award: 'Awwwards',
     category: 'Hono mention',
-    img: '/images/portfolio/portfolio-list-hover-img-04.png',
+    img: '/images/portfolio/portfolio-list-hover-img-04.webp',
   },
 ]
 
@@ -142,7 +142,7 @@ const AwardWinningWork = () => {
         <img
           ref={previewImgRef}
           id="preview-img"
-          src="/images/portfolio/portfolio-list-hover-img-01.png"
+          src="/images/portfolio/portfolio-list-hover-img-01.webp"
           alt="Preview"
           className="h-full w-full object-cover"
         />

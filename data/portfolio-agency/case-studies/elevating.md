@@ -1,8 +1,8 @@
 ---
 title: 'Trendsetting Style'
 description: 'Explore the Best Sellers No-Code Website a cutting-edge platform that combines creativity and functionality to help businesses showcase their top products effortlessly. No coding required!'
-thumbnail: '/images/project-3/services-7.png'
-coverImage: '/images/services/services-details-img.png'
+thumbnail: '/images/project-3/services-7.webp'
+coverImage: '/images/services/services-details-img.webp'
 badge: 'Project case study'
 ---
 
@@ -18,7 +18,7 @@ Designing the User Experience (UX) is a meticulous process that involves underst
 
 Information architecture (IA) is the structural design of digital information environments, such as websites and applications, to facilitate intuitive navigation and efficient access to content. It involves organizing and categorizing information in a logical and hierarchical manner, ensuring that users can easily find what they're looking for. Information architecture considers factors such as user goals, business objectives, and content relationships to create a cohesive and user-friendly structure.
 
-![Project images](/images/project-details/project-details-button.png)
+![Project images](/images/project-details/project-details-button.webp)
 
 Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
 
@@ -28,6 +28,7 @@ Information architecture (IA) is the structural design of digital information en
 
 structure. Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
 
-![Project images](/images/services/business-big.png)
+![Project images](/images/services/business-big.webp)
 
 Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
+

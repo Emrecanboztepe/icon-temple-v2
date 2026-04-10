@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/homeV3-img-2.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/homeV3-img-2.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'Next-Gen Frontend Technologies...'
 description: 'Explore how consumer expectations, technologies, and platforms are reshaping digital advertising in 2024.'
 featured: true
@@ -26,7 +26,7 @@ As the landscape shifts, advertisers need to rethink their strategies. Key steps
 2. **Experimenting with Immersive Media:** Use AR/VR to create memorable ad experiences.
 3. **Partnering with Influencers:** Collaborate with creators who align with your brand values for authentic connections.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -38,7 +38,7 @@ The rapidly changing landscape poses challenges, such as:
 
 By staying flexible and embracing innovation, businesses can turn challenges into opportunities.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing the website with real users
 
@@ -47,3 +47,4 @@ By staying flexible and embracing innovation, businesses can turn challenges int
 - User Testing: Gathering feedback from actual users to refine the design, ensuring it meets usability standards.
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
+

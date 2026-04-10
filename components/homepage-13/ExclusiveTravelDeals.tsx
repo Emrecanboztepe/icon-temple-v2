@@ -5,19 +5,19 @@ import TextAppearAnimation from '../animation/TextAppearAnimation'
 const data = [
   {
     id: 1,
-    image: '/images/travel-blogs/travel-1.png',
+    image: '/images/travel-blogs/travel-1.webp',
     title: 'Budget travel with comfort.',
     description: 'Assistance whenever and wherever you need it.',
   },
   {
     id: 2,
-    image: '/images/travel-blogs/travel-2.png',
+    image: '/images/travel-blogs/travel-2.webp',
     title: 'Luxury getaways for less.',
     description: 'Premium experiences at exceptional value.',
   },
   {
     id: 3,
-    image: '/images/travel-blogs/travel-3.png',
+    image: '/images/travel-blogs/travel-3.webp',
     title: 'Honeymoon & Romantic getaways',
     description: 'Unforgettable experiences for thrill seekers.',
   },

@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-4.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-4.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Rapid Evolution of Digital Advertising'
 description: 'Dive into how digital advertising has evolved rapidly over the last decade and what businesses need to know to stay ahead.'
 featured: true
@@ -25,7 +25,7 @@ As digital ads evolve, so do user expectations. Successful advertising now hinge
 2. **Interactive Ads:** Encourage user engagement with clickable, dynamic elements.
 3. **Ad Placements That Blend In:** Focus on native ads that seamlessly integrate into the user experience without disrupting their browsing journey.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Emerging Challenges in Digital Advertising
 
@@ -43,7 +43,7 @@ The evolution of digital advertising requires striking a balance between innovat
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing the website with real users
 
@@ -52,3 +52,4 @@ The evolution of digital advertising requires striking a balance between innovat
 - User Testing: Gathering feedback from actual users to refine the design, ensuring it meets usability standards.
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
+

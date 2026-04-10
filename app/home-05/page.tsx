@@ -41,9 +41,9 @@ const homepage5 = () => {
         Ready to
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/04.png' },
-            { id: '2', img: '/images/agent/05.png' },
-            { id: '3', img: '/images/agent/06.png' },
+            { id: '1', img: '/images/agent/04.webp' },
+            { id: '2', img: '/images/agent/05.webp' },
+            { id: '3', img: '/images/agent/06.webp' },
           ]}
         />
         grow

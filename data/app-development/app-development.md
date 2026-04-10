@@ -1,7 +1,7 @@
 ---
 title: 'App Development'
 description: 'Build seamless, high-performance applications tailored to your business needs, from idea to launch.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 badgeTitle: 'Mobile & Web Apps'
 feature: ['iOS & Android Apps', 'Cross-Platform Development']
 ---
@@ -27,3 +27,4 @@ We take care of everything from ideation to app store deployment, providing a co
 ### Why Choose Us
 
 Choosing Rivor means getting a strategic partner who’s invested in your success. With a focus on communication, transparency, and innovation, we help businesses launch apps that make a difference in users' lives and their bottom line.
+

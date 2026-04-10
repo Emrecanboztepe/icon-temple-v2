@@ -1,7 +1,7 @@
 'use client'
 
-import logoDark from '@/public/images/logo-white.png'
-import logo from '@/public/images/logo.png'
+import logoDark from '@/public/images/logo-white.webp'
+import logo from '@/public/images/logo.webp'
 import { gsap } from 'gsap'
 import Image from 'next/image'
 import Link from 'next/link'

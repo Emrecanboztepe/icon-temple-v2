@@ -50,7 +50,7 @@ const HeroV19 = () => {
         id="hero-gradient-wrapper"
         className="absolute left-0 top-0 -z-10 blur-[65px] md:-top-[10%] lg:-left-[17%] 2xl:left-0">
         <img
-          src="/images/hero-gradient-background.png"
+          src="/images/hero-gradient-background.webp"
           alt="hero-gradient-background"
           id="hero-gradient"
           className="-top-[10%] left-0 scale-50"
@@ -90,9 +90,9 @@ const HeroV19 = () => {
             {/* logo */}
             <div className="absolute -left-0 -top-[12%] mx-auto flex h-[120px] w-[120px] items-center justify-center rounded-full before:absolute before:h-[140px] before:w-[140px] before:rounded-full before:bg-white before:content-[''] dark:before:bg-secondary lg:-left-[12%]">
               <figure className="relative z-50">
-                <img src="/images/icons/text-circle-logo.png" alt="text-circle-logo" className="inline dark:hidden" />
+                <img src="/images/icons/text-circle-logo.webp" alt="text-circle-logo" className="inline dark:hidden" />
                 <img
-                  src="/images/icons/text-circle-dark-logo.png"
+                  src="/images/icons/text-circle-dark-logo.webp"
                   alt="text-circle-logo"
                   className="hidden dark:inline"
                 />
@@ -101,10 +101,10 @@ const HeroV19 = () => {
                 ref={textRef}
                 className="text-2 h-[120px] w-[120px] rounded-full bg-secondary text-[10px] text-backgroundBody dark:bg-backgroundBody dark:text-secondary"></div>
             </div>
-            <img src="/images/hero-img/startup-hero-1.jpg" alt="hero-img" className="max-sm:w-full" />
+            <img src="/images/hero-img/startup-hero-1.webp" alt="hero-img" className="max-sm:w-full" />
           </figure>
           <figure>
-            <img src="/images/hero-img/startup-hero-2.jpg" alt="hero-img" className="max-sm:w-full" />
+            <img src="/images/hero-img/startup-hero-2.webp" alt="hero-img" className="max-sm:w-full" />
           </figure>
         </div>
       </div>

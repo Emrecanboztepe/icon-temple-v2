@@ -8,7 +8,7 @@ const DawnloadOurApp = () => {
       <div className="container">
         <div className="flex flex-col justify-center gap-y-6 md:flex-row md:justify-start">
           <RevealWrapper as="figure" className="flex-1">
-            <img src="/images/download-app-thumbnail.png" alt="download-app-thumbnail" />
+            <img src="/images/download-app-thumbnail.webp" alt="download-app-thumbnail" />
           </RevealWrapper>
           <div className="flex-1">
             <TextAppearAnimation>

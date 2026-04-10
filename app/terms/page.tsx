@@ -25,9 +25,9 @@ const FAQPage = () => {
         Let's chat!
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/14.png' },
-            { id: '2', img: '/images/agent/16.png' },
-            { id: '3', img: '/images/agent/19.png' },
+            { id: '1', img: '/images/agent/14.webp' },
+            { id: '2', img: '/images/agent/16.webp' },
+            { id: '3', img: '/images/agent/19.webp' },
           ]}
         />
         with us.

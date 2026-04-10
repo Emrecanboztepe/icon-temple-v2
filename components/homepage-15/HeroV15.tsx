@@ -53,10 +53,10 @@ const HeroV15 = () => {
           </div>
           <div className="flex flex-col gap-x-2.5 gap-y-4 max-lg:w-full">
             <RevealWrapper as="figure" className="w-full">
-              <img src="/images/hero-img/branding-mockup-1.png" alt="Tote Bag Mockup" className="max-lg:w-full" />
+              <img src="/images/hero-img/branding-mockup-1.webp" alt="Tote Bag Mockup" className="max-lg:w-full" />
             </RevealWrapper>
             <RevealWrapper as="figure" className="w-full">
-              <img src="/images/hero-img/branding-mockup-2.png" alt="Tote Bag Mockup" className="max-lg:w-full" />
+              <img src="/images/hero-img/branding-mockup-2.webp" alt="Tote Bag Mockup" className="max-lg:w-full" />
             </RevealWrapper>
           </div>
         </div>

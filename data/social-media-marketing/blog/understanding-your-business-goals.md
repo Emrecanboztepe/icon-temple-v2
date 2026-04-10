@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blogV3-img-1.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blogV3-img-1.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'Understanding Your Business Goals'
 description: 'We start by gaining a deep understanding of your business goals.'
 blogtype: 'row'
@@ -25,7 +25,7 @@ To capitalize on AI and automation, focus on:
 2. **Chatbots for Engagement:** Use AI-driven chatbots to interact with users and guide them down the sales funnel.
 3. **Enhanced Retargeting:** AI can analyze user behavior to deliver retargeted ads with higher precision.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Building the information architecture
 
@@ -41,7 +41,7 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing the website with real users
 
@@ -60,3 +60,4 @@ While promising, these technologies also bring unique challenges:
 - **Ethical Concerns:** AI targeting can raise questions about user privacy and bias.
 
 By combining AI’s strengths with human creativity, advertisers can create campaigns that are both effective and ethical.
+

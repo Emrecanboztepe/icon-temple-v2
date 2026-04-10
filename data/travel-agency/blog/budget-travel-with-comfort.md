@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/travel-blogs/destination-blog-1.jpg'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/travel-blogs/destination-blog-1.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'Budget travel with comfort'
 description: 'Discover how AI is revolutionizing personalized marketing strategies in 2024.'
 date: 'April 10, 2025'
@@ -26,7 +26,7 @@ To adopt blockchain in advertising, consider:
 2. **Ensure Transparency:** Use blockchain to verify ad performance and metrics.
 3. **Educate Stakeholders:** Build awareness of blockchain's benefits.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -37,3 +37,4 @@ Challenges in blockchain advertising include:
 - **Adoption Barriers:** Convincing stakeholders to embrace new technology.
 
 By addressing these challenges, brands can lead the blockchain advertising revolution.
+

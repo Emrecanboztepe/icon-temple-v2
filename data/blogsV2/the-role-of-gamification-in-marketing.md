@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-3.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-3.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Role of Gamification in Marketing'
 description: 'Learn how gamification is driving consumer engagement in 2024.'
 date: 'June 5, 2025'
@@ -25,7 +25,7 @@ To leverage gamification, consider:
 2. **Keep It Simple:** Ensure games are easy to understand and play.
 3. **Offer Real Value:** Provide meaningful rewards to participants.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in gamification include:
 - **Measuring ROI:** Tracking the effectiveness of gamified campaigns.
 
 By focusing on creativity and value, brands can harness the power of gamification.
+

@@ -7,42 +7,42 @@ const TravelImagesGallery = () => {
         <div className="grid grid-cols-12 gap-2 lg:gap-3.5 2xl:gap-7">
           <RevealWrapper className="reveal-me col-span-4 row-span-1">
             <img
-              src="/images/travel-blogs/travel-gallary-1.png"
+              src="/images/travel-blogs/travel-gallary-1.webp"
               alt="Van in mountains"
               className="h-full w-full object-cover"
             />
           </RevealWrapper>
           <RevealWrapper className="reveal-me col-span-4 row-span-2">
             <img
-              src="/images/travel-blogs/travel-gallary-2.png"
+              src="/images/travel-blogs/travel-gallary-2.webp"
               alt="Building on cliff edge"
               className="h-full w-full object-cover"
             />
           </RevealWrapper>
           <RevealWrapper className="reveal-me col-span-4 row-span-1">
             <img
-              src="/images/travel-blogs/travel-gallary-5.png"
+              src="/images/travel-blogs/travel-gallary-5.webp"
               alt="Mountain view"
               className="h-full w-full object-cover"
             />
           </RevealWrapper>
           <RevealWrapper className="reveal-me col-span-2 row-span-1">
             <img
-              src="/images/travel-blogs/travel-gallary-3.png"
+              src="/images/travel-blogs/travel-gallary-3.webp"
               alt="Travel finances"
               className="h-full w-full object-cover"
             />
           </RevealWrapper>
           <RevealWrapper className="reveal-me col-span-2 row-span-1">
             <img
-              src="/images/travel-blogs/travel-gallary-4.png"
+              src="/images/travel-blogs/travel-gallary-4.webp"
               alt="Person in forest"
               className="h-full w-full object-cover"
             />
           </RevealWrapper>
           <RevealWrapper className="reveal-me col-span-4 row-span-1">
             <img
-              src="/images/travel-blogs/travel-gallary-6.png"
+              src="/images/travel-blogs/travel-gallary-6.webp"
               alt="City tram"
               className="h-full w-full object-cover"
             />

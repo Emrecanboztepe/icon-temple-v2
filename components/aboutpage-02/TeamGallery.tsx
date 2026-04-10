@@ -14,25 +14,25 @@ export interface ITeamMember {
 const teamMembers: ITeamMember[] = [
   {
     id: '1',
-    image: '/images/home-ai/team/ai-team-1.png',
+    image: '/images/home-ai/team/ai-team-1.webp',
     title: '1+1 Daireler',
     position: 'Detayları İncele',
   },
   {
     id: '2',
-    image: '/images/home-ai/team/ai-team-2.png',
+    image: '/images/home-ai/team/ai-team-2.webp',
     title: '2+1 Daireler',
     position: 'Detayları İncele',
   },
   {
     id: '3',
-    image: '/images/home-ai/team/ai-team-3.png',
+    image: '/images/home-ai/team/ai-team-3.webp',
     title: '3+1 Dublex Daireler',
     position: 'Detayları İncele',
   },
   {
     id: '4',
-    image: '/images/home-ai/team/ai-team-4.png',
+    image: '/images/home-ai/team/ai-team-4.webp',
     title: 'Didim',
     position: 'Detayları İncele',
   },

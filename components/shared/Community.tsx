@@ -1,4 +1,4 @@
-import communityImg from '@/public/images/community-image.jpg'
+import communityImg from '@/public/images/community-image.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'

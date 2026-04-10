@@ -1,7 +1,7 @@
 ---
 title: 'SEO'
 description: 'Boost your online visibility with tailored SEO strategies that drive traffic, improve rankings, and turn visitors into loyal customers.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 logo: '/images/icons/services-icon/service-icon-1.svg'
 logoDark: '/images/icons/services-icon/service-icon-dark-1.svg'
 badgeTitle: 'SEO Services'
@@ -26,3 +26,4 @@ Backlink Building: Gain authority in your niche with ethical and effective backl
 Analytics and Reporting: We track your progress through advanced tools and provide clear, actionable reports so you can see the ROI of your SEO investment.
 
 SEO Maintenance: SEO is not a one-time task. We continuously monitor your website’s performance and make necessary adjustments to sustain and improve rankings.
+

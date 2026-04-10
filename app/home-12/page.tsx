@@ -40,9 +40,9 @@ const homepage12 = () => {
         Your AI
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/09.png' },
-            { id: '2', img: '/images/agent/10.png' },
-            { id: '3', img: '/images/agent/07.png' },
+            { id: '1', img: '/images/agent/09.webp' },
+            { id: '2', img: '/images/agent/10.webp' },
+            { id: '3', img: '/images/agent/07.webp' },
           ]}
         />
         Transformation

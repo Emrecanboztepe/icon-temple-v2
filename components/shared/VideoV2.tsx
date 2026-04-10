@@ -15,7 +15,7 @@ const VideoV2: FC<VideoV2Props> = ({ thumbnail }) => {
     <RevealWrapper as="section" className="video-section overflow-hidden pb-14 md:pb-16 lg:pb-[88px] xl:pb-[112px]">
       <div className="hero-video-container group container relative">
         <div className="hero-video">
-          <img src={thumbnail ?? '/images/video-thumbnail.png'} alt="hero video-bg" />
+          <img src={thumbnail ?? '/images/video-thumbnail.webp'} alt="hero video-bg" />
           <button
             className="absolute inset-0 flex cursor-pointer items-center justify-center transition-all duration-300 group-hover:transform group-hover:[&>div]:scale-110"
             onClick={() => setOpen(true)}>

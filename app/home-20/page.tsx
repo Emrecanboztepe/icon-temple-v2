@@ -19,7 +19,7 @@ const homepage20 = () => {
   return (
     <LayoutTwo>
       <HeroV20 />
-      <VideoV2 thumbnail="/images/video-thumbnail-02.png" />
+      <VideoV2 thumbnail="/images/video-thumbnail-02.webp" />
       <MarqueeV4 />
       <AboutV16 />
       <SolutionV2 />
@@ -31,9 +31,9 @@ const homepage20 = () => {
         Let’s Scale
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/15.png' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/03.jpg' },
+            { id: '1', img: '/images/agent/15.webp' },
+            { id: '2', img: '/images/agent/02.webp' },
+            { id: '3', img: '/images/agent/03.webp' },
           ]}
         />
         Brand

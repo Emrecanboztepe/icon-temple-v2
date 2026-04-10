@@ -7,37 +7,37 @@ const teamData = [
     id: 1,
     name: 'Theresa Webb',
     position: 'Founder & CEO',
-    image: '/images/team/team-2.png',
+    image: '/images/team/team-2.webp',
   },
   {
     id: 2,
     name: 'John Doe',
     position: 'Creative Director',
-    image: '/images/team/team-3.png',
+    image: '/images/team/team-3.webp',
   },
   {
     id: 3,
     name: 'Jane Smith',
     position: 'Marketing Manager',
-    image: '/images/team/team-7.png',
+    image: '/images/team/team-7.webp',
   },
   {
     id: 4,
     name: 'Michael Brown',
     position: 'Lead Developer',
-    image: '/images/team/team-4.png',
+    image: '/images/team/team-4.webp',
   },
   {
     id: 5,
     name: 'Emily Davis',
     position: 'UX/UI Designer',
-    image: '/images/team/team-5.png',
+    image: '/images/team/team-5.webp',
   },
   {
     id: 6,
     name: 'David Wilson',
     position: 'Sales Executive',
-    image: '/images/team/team-6.png',
+    image: '/images/team/team-6.webp',
   },
 ]
 

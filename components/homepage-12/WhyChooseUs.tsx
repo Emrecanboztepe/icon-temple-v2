@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
             </RevealWrapper>
           </div>
           <RevealWrapper as="figure" className="md:w-1/2">
-            <img src="/images/home-5/why-rivor.png" alt="AI Solutions" className="h-full w-full" />
+            <img src="/images/home-5/why-rivor.webp" alt="AI Solutions" className="h-full w-full" />
           </RevealWrapper>
         </div>
         <RevealWrapper as="ul" className="mt-14 flex justify-center">

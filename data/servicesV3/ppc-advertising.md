@@ -1,7 +1,7 @@
 ---
 title: '(PPC) advertising'
 description: 'Maximize ROI with data-driven paid advertising strategies that target the right audience at the right time.'
-coverImage: '/images/services/services-details2-img.png'
+coverImage: '/images/services/services-details2-img.webp'
 logo: '/images/icons/services-icon/service-icon-5.svg'
 logoDark: '/images/icons/services-icon/service-icon-dark-5.svg'
 badgeTitle: 'PPC Advertising'
@@ -26,3 +26,4 @@ Copywriting and Design: Our creative team ensures your emails look great on all 
 Performance Tracking: We monitor key KPIs like open rates, click-throughs, and conversions, and make continuous improvements based on real-time data.
 
 Compliance and Deliverability: We follow best practices to ensure your emails land in inboxes, not spam folders, and comply with GDPR and CAN-SPAM regulations.
+

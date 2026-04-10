@@ -46,7 +46,7 @@ const ProcessV6 = () => {
             </RevealWrapper>
           </div>
           <RevealWrapper as="figure" className="reveal-me md:w-1/2">
-            <img src="/images/process/process-thumbnail.png" alt="Marketing professional" className="h-full w-full" />
+            <img src="/images/process/process-thumbnail.webp" alt="Marketing professional" className="h-full w-full" />
           </RevealWrapper>
         </div>
       </div>

@@ -69,7 +69,7 @@ const WhyChooseUsV2 = () => {
             ))}
           </div>
           <RevealWrapper as="figure" className="reveal-me md:w-1/2">
-            <img src="/images/home-5/why-rivor-v2.png" alt="AI Solutions" className="h-full w-full" />
+            <img src="/images/home-5/why-rivor-v2.webp" alt="AI Solutions" className="h-full w-full" />
           </RevealWrapper>
         </div>
       </div>

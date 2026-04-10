@@ -12,47 +12,47 @@ type InstagramItem = {
 const data: InstagramItem[] = [
   {
     id: 1,
-    image: '/images/testimonial/testimonial-1.png',
+    image: '/images/testimonial/testimonial-1.webp',
     link: '',
   },
   {
     id: 2,
-    image: '/images/testimonial/testimonial-2.png',
+    image: '/images/testimonial/testimonial-2.webp',
     link: '',
   },
   {
     id: 3,
-    image: '/images/testimonial/testimonial-3.png',
+    image: '/images/testimonial/testimonial-3.webp',
     link: '',
   },
   {
     id: 4,
-    image: '/images/testimonial/testimonial-4.png',
+    image: '/images/testimonial/testimonial-4.webp',
     link: '',
   },
   {
     id: 5,
-    image: '/images/testimonial/testimonial-5.png',
+    image: '/images/testimonial/testimonial-5.webp',
     link: '',
   },
   {
     id: 6,
-    image: '/images/testimonial/testimonial-6.png',
+    image: '/images/testimonial/testimonial-6.webp',
     link: '',
   },
   {
     id: 7,
-    image: '/images/testimonial/testimonial-7.png',
+    image: '/images/testimonial/testimonial-7.webp',
     link: '',
   },
   {
     id: 8,
-    image: '/images/testimonial/testimonial-8.png',
+    image: '/images/testimonial/testimonial-8.webp',
     link: '',
   },
   {
     id: 9,
-    image: '/images/testimonial/testimonial-9.png',
+    image: '/images/testimonial/testimonial-9.webp',
     link: '',
   },
 ]

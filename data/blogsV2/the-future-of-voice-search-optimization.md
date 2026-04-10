@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/homeV3-img-2.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/homeV3-img-2.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The Future of Voice Search Optimization'
 description: 'Learn how voice search is reshaping SEO strategies in 2024.'
 date: 'April 10, 2025'
@@ -25,7 +25,7 @@ To succeed in voice search optimization, consider:
 2. **Leverage Structured Data:** Use schema markup to improve search visibility.
 3. **Create FAQ Pages:** Address common questions to capture featured snippets.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Overcoming Obstacles
 
@@ -36,3 +36,4 @@ Challenges in voice search optimization include:
 - **Technical Limitations:** Adapting to the evolving capabilities of voice assistants.
 
 By embracing these strategies, businesses can thrive in the voice search era.
+

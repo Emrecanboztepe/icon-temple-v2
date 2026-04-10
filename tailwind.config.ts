@@ -39,10 +39,10 @@ export default {
       },
       cursor: {
         fancy: 'url(/images/cursor.svg), default',
-        pause: 'url(/images/pause.png), default',
+        pause: 'url(/images/pause.webp), default',
       },
       backgroundImage: {
-        'ai-gradient-bg': "url('/images/ai-transition.png')",
+        'ai-gradient-bg': "url('/images/ai-transition.webp')",
       },
       transitionTimingFunction: {
         'faq-body-transition': 'cubic-bezier(0.165, 0.84, 0.44, 1)',
@@ -62,3 +62,4 @@ export default {
   ],
   plugins: [],
 } satisfies Config
+

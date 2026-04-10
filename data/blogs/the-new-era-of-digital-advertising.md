@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/blog-img/blog-img-5.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: '/images/blog-img/blog-img-5.webp'
+featureImage: '/images/blog-img/blog-details-img-1.webp'
 title: 'The New Era of Digital Advertising'
 description: 'Explore the latest developments defining the new era of digital advertising, from AI to hyper-personalization.'
 featured: true
@@ -25,7 +25,7 @@ Crafting successful campaigns in the new era requires a fresh approach:
 2. **Focus on User Intent:** Understand not just what users want but _why_ they want it.
 3. **Experiment with New Formats:** Try emerging ad formats, such as AR ads or 3D product visualizations, to stand out.
 
-![Blog-details images](/images/services/services-details-img.png)
+![Blog-details images](/images/services/services-details-img.webp)
 
 ### Challenges in the New Era
 
@@ -47,7 +47,7 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
 
-![Blog-details images](/images/project-details/project-details-2-banner.png)
+![Blog-details images](/images/project-details/project-details-2-banner.webp)
 
 ### Testing the website with real users
 
@@ -56,3 +56,4 @@ Got it. Testing with real users is crucial for refining your design and ensuring
 - User Testing: Gathering feedback from actual users to refine the design, ensuring it meets usability standards.
 - Interaction Design: Focusing on the way users interact with the interface, considering ease of navigation and user behaviors.
 - Visual Design: Enhancing the user experience with appealing, cohesive, and accessible aesthetics.
+

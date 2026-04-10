@@ -8,11 +8,11 @@ import VideoModal from '../shared/VideoModal'
 const HeroV16 = () => {
   const [open, setOpen] = useState(false)
   return (
-    <section className="relative overflow-hidden bg-[url('/images/hero-img/hero-gradient-bg.png')] bg-cover bg-no-repeat object-cover pt-[107px] md:pt-[130px] xl:pt-[180px]">
+    <section className="relative overflow-hidden bg-[url('/images/hero-img/hero-gradient-bg.webp')] bg-cover bg-no-repeat object-cover pt-[107px] md:pt-[130px] xl:pt-[180px]">
       {/* Gradient Background Wrapper */}
       <div id="hero-gradient-wrapper" className="absolute left-0 top-0 -z-10 h-full w-full blur-[85px] md:blur-[80px]">
         <img
-          src="/images/hero-gradient-background.png"
+          src="/images/hero-gradient-background.webp"
           alt="hero-gradient-background"
           id="hero-gradient"
           className="absolute left-0 top-1/2 max-md:-translate-y-[60%] md:-translate-y-1/2 lg:scale-75 xl:scale-100"
@@ -52,17 +52,17 @@ const HeroV16 = () => {
               {/* user overlap image */}
               <div className="my-3 flex [&>*:not(:first-child)]:-ml-4">
                 <img
-                  src="/images/avatar/review-19.png"
+                  src="/images/avatar/review-19.webp"
                   className="size-12 rounded-[48px] border-2 border-secondary object-cover md:size-[60px] md:rounded-[60px]"
                   alt="User Review"
                 />
                 <img
-                  src="/images/avatar/review-20.png"
+                  src="/images/avatar/review-20.webp"
                   className="size-12 rounded-[48px] border-2 border-secondary object-cover md:size-[60px] md:rounded-[60px]"
                   alt="User Review"
                 />
                 <img
-                  src="/images/avatar/review-21.png"
+                  src="/images/avatar/review-21.webp"
                   className="size-12 rounded-[48px] border-2 border-secondary object-cover md:size-[60px] md:rounded-[60px]"
                   alt="User Review"
                 />
@@ -89,7 +89,7 @@ const HeroV16 = () => {
                   </svg>
                 </div>
               </button>
-              <img src="/images/hero-img/video-img.png" alt="" />
+              <img src="/images/hero-img/video-img.webp" alt="" />
             </div>
           </RevealWrapper>
         </div>

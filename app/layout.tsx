@@ -7,7 +7,7 @@ import '../scss/main.scss'
 export const metadata: Metadata = {
   title: 'Rivor Template',
   icons: {
-    icon: '/images/favicon-96x96.png',
+    icon: '/images/favicon-96x96.webp',
   },
 }
 
