@@ -83,14 +83,15 @@ const FooterV2 = () => {
                 </div>
               </div>
               <div className="mt-7 flex gap-6 md:mt-10">
-                <span className="cursor-pointer">
+                {/* Facebook - Beklemede */}
+                <span className="cursor-default opacity-40" title="Facebook (Yakında)">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={23}
                     height={23}
                     viewBox="0 0 20 20"
                     fill="none"
-                    className="stroke-[#565656] duration-200 hover:stroke-primary">
+                    className="stroke-[#565656] duration-200">
                     <path
                       d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z"
                       strokeLinecap="round"
@@ -104,7 +105,13 @@ const FooterV2 = () => {
                     <path d="M7.5 11.25H12.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </span>
-                <span className="cursor-pointer">
+                {/* YouTube */}
+                <Link
+                  href="https://www.youtube.com/channel/UCMBHXg_FSz7fRBpIoHbORCw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                  className="cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="stroke-[#565656] duration-200 hover:stroke-primary"
@@ -119,8 +126,14 @@ const FooterV2 = () => {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </span>
-                <span className="cursor-pointer">
+                </Link>
+                {/* Instagram */}
+                <Link
+                  href="https://www.instagram.com/icontempleresidence/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="stroke-[#565656] duration-200 hover:stroke-primary"
@@ -142,21 +155,22 @@ const FooterV2 = () => {
                       fill="#565656"
                     />
                   </svg>
-                </span>
+                </Link>
               </div>
             </div>
           </div>
-          <p className="mt-10 border-t pt-5 text-center dark:border-dark">
-            Copyright ©{' '}
-            <Link
-              href="https://purpagency.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary">
-              Purp Agency
-            </Link>{' '}
-            Tüm Hakları Saklıdır.
-          </p>
+          <div className="mt-10 flex flex-col items-center justify-between gap-2 border-t pt-5 text-sm sm:flex-row dark:border-dark">
+            <p>Copyright © Icon Temple Residence Tüm Hakları Saklıdır.</p>
+            <p>
+              <Link
+                href="https://purpagency.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium hover:text-primary">
+                Purp Agency
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

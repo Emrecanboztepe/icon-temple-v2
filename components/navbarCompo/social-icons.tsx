@@ -1,7 +1,10 @@
+import Link from 'next/link'
+
 export function SocialIcons() {
   return (
     <div className="flex gap-6">
-      <span className="cursor-default">
+      {/* Facebook - Beklemede */}
+      <span className="cursor-default opacity-40" title="Facebook (Yakında)">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="23"
@@ -22,10 +25,16 @@ export function SocialIcons() {
           <path d="M7.5 11.25H12.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </span>
-      <span className="cursor-default">
+      {/* YouTube */}
+      <Link
+        href="https://www.youtube.com/channel/UCMBHXg_FSz7fRBpIoHbORCw"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="YouTube"
+        className="cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="stroke-[#565656] duration-200"
+          className="stroke-[#565656] duration-200 hover:stroke-white"
           width="23"
           height="23"
           viewBox="0 0 20 20"
@@ -37,11 +46,17 @@ export function SocialIcons() {
             strokeLinejoin="round"
           />
         </svg>
-      </span>
-      <span className="cursor-default">
+      </Link>
+      {/* Instagram */}
+      <Link
+        href="https://www.instagram.com/icontempleresidence/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        className="cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="stroke-[#565656] duration-200"
+          className="stroke-[#565656] duration-200 hover:stroke-white"
           width="23"
           height="23"
           viewBox="0 0 20 20"
@@ -60,7 +75,7 @@ export function SocialIcons() {
             fill="#565656"
           />
         </svg>
-      </span>
+      </Link>
     </div>
   )
 }

@@ -65,11 +65,11 @@ const TeamGalleryHome = () => {
                   />
                   <div className="absolute bottom-0 left-0 right-0 m-5 bg-primary px-4 py-4">
                     <div className="blog-title mb-1">
-                      <h3 className="text-xl dark:text-secondary lg:text-4xl lg:leading-[1.2] lg:tracking-[-1.08px]">
+                      <h3 className="text-xl text-white lg:text-4xl lg:leading-[1.2] lg:tracking-[-1.08px]">
                         {member.title}
                       </h3>
                     </div>
-                    <p className="text-lg font-light leading-5 text-black/70 dark:text-secondary">{member.position}</p>
+                    <p className="text-lg font-light leading-5 text-white/70">{member.position}</p>
                   </div>
                 </Link>
               </RevealWrapper>

@@ -40,9 +40,9 @@ const homepage11 = () => {
         Yeni
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/yasami.webp' },
-            { id: '2', img: '/images/agent/anı.webp' },
-            { id: '3', img: '/images/agent/konfor.webp' },
+            { id: '1', img: '/images/agent/yasaminizi.webp' },
+            { id: '2', img: '/images/agent/anilarinizi.webp' },
+            { id: '3', img: '/images/agent/konforunuzu.webp' },
           ]}
         />
         birlikte planlayalım.
