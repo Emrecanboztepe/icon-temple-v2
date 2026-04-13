@@ -20,12 +20,10 @@ const HeroV7 = () => {
             <br />
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/huzurun.webp' },
-                { id: '2', img: '/images/agent/nesenin.webp' },
-                { id: '3', img: '/images/agent/umut.webp' },
-                { id: '4', img: '/images/agent/sevgi.webp' },
-                { id: '5', img: '/images/agent/ses.webp' },
-                { id: '6', img: '/images/agent/hayal.webp' },
+                { id: '1', img: '/images/agent/yasam.webp' },
+                { id: '2', img: '/images/agent/keyif.webp' },
+                { id: '3', img: '/images/agent/huzur.webp' },
+                { id: '4', img: '/images/agent/didim.webp' },
               ]}
             />
             Ritüelin
